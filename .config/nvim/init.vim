@@ -1,3 +1,20 @@
+" Tue Nov  2 10:20:32 AM MDT 2021
+"
+"                          __  ___       _   ________  ___
+"                         /  |/  /_ __  | | / /  _/  |/  /
+"                        / /|_/ / // /  | |/ // // /|_/ / 
+"                       /_/  /_/\_, /   |___/___/_/  /_/  
+"                              /___/                      
+"
+"--------------------------------------------------------------------------------------------------
+
+" CODE FOLDING, hit 'za' IN NORMAL! {{{
+" https://learnvimscriptthehardway.stevelosh.com/chapters/18.html
+augroup filetype_vim
+    autocmd!
+    autocmd FileType vim setlocal foldmethod=marker
+augroup END
+" }}}
 
 
 if (has("termguicolors"))
@@ -5,15 +22,13 @@ if (has("termguicolors"))
 endif
 
 
-function! GitBranch()
-  return system("git rev-parse --abbrev-ref HEAD 2>/dev/null | tr -d '\n'")
-endfunction
-
-function! StatuslineGit()
-  let l:branchname = GitBranch()
-  return strlen(l:branchname) > 0?'  '.l:branchname.' ':''
-endfunction
-
+" AUTOMATICALLY RELOAD CONFIG ON SAVE. {{{
+" https://stackoverflow.com/questions/2400264/is-it-possible-to-apply-vim-configurations-without-restarting/2403926#2403926
+augroup myvimrc
+    au!
+    au BufWritePost init.vim,.vimrc,_vimrc,vimrc,.gvimrc,_gvimrc,gvimrc so $MYVIMRC | if has('gui_running') | so $MYGVIMRC | endif
+augroup END
+" }}}
 
 
 filetype plugin on
@@ -57,20 +72,15 @@ set softtabstop=4                       " see multiple spaces as tabstops so <BS
 set splitbelow                          " Horizontal splits will automatically be below
 set splitright                          " Vertical splits will automatically be to the right
 
-set statusline=
-set statusline+=%#PmenuSel#
-set statusline+=%{StatuslineGit()}
-set statusline+=%#LineNr#
-set statusline+=\ %f
-set statusline+=%m\
-set statusline+=%=
-set statusline+=%#CursorColumn#
-set statusline+=\ %y
-set statusline+=\ %{&fileencoding?&fileencoding:&encoding}
-set statusline+=\[%{&fileformat}\]
-set statusline+=\ %p%%
-set statusline+=\ %l:%c
-set statusline+=\ 
+
+" STATUSLINE {{{
+set statusline+=\ %y                    " FileType of the file
+set statusline+=\ %F                    " Full path to the file
+set statusline+=%=                      " Align to Right
+set statusline+=[%c:%l/%L]                      " Current Lline
+set statusline+=\ [%p%%]
+" }}}
+
 
 set t_Co=256                            " Support 256 colors
 set tabstop=4                           " number of columns occupied by a tab 
@@ -83,6 +93,7 @@ syntax on                               " syntax highlighting
 
 
 " SOURCES
+" https://learnvimscriptthehardway.stevelosh.com/ 
 " https://shapeshed.com/vim-statuslines/
 " https://marioyepes.com/vim-setup-for-modern-web-development/
 " https://github.com/kyoz/neovim
