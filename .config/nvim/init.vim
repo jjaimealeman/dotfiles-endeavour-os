@@ -1,12 +1,33 @@
-" Tue Nov  2 10:20:32 AM MDT 2021
-"
-"                          __  ___       _   ________  ___
-"                         /  |/  /_ __  | | / /  _/  |/  /
-"                        / /|_/ / // /  | |/ // // /|_/ / 
-"                       /_/  /_/\_, /   |___/___/_/  /_/  
-"                              /___/                      
-"
-"--------------------------------------------------------------------------------------------------
+
+
+let mapleader = ","
+
+
+nnoremap <esc><esc> :nohlsearch<cr>     " Un-highlight by pressing ESCAPE twice
+nnoremap <leader>s :w!<cr>              " Fast Saving
+nnoremap <leader>q :q!<cr>              " Fast Quit
+nnoremap <leader>v :vsplit<cr>          " Split v
+nnoremap <leader>h :split<cr>           " Split h
+nnoremap cp :let @* = expand("%")<cr>   " Copy current filename: init.vim
+nnoremap cP :let @* = expand("%:p")<cr> " Copy current filepath: /home/jaime/.config/nvim/init.vim
+nnoremap td :-r !date<cr>               " Insert TimeDate stamp
+
+
+if (has("termguicolors"))
+    set termguicolors
+endif
+
+
+" What colorscheme?
+" :colorscheme [space] [Ctrl+d]
+" Shows available colorschemes
+
+
+" SOURCE https://dev.to/matrixersp/how-to-use-fzf-with-ripgrep-to-selectively-ignore-vcs-files-4e27
+"command! -bang -nargs=*  All
+"  \ call fzf#run(fzf#wrap({'source': 'rg --files --hidden --no-ignore-vcs --glob "!{node_modules/*,.git/*}"', 'down': '40%', 'options': '--expect=ctrl-t,ctrl-x,ctrl-v --multi --reverse' }))
+"nnoremap <silent> <leader>o :All<cr>
+
 
 " CODE FOLDING, hit 'za' IN NORMAL! {{{
 " https://learnvimscriptthehardway.stevelosh.com/chapters/18.html
@@ -15,11 +36,6 @@ augroup filetype_vim
     autocmd FileType vim setlocal foldmethod=marker
 augroup END
 " }}}
-
-
-if (has("termguicolors"))
-    set termguicolors
-endif
 
 
 " AUTOMATICALLY RELOAD CONFIG ON SAVE. {{{
@@ -38,13 +54,14 @@ set autoindent                          " indent a new line the same amount as t
 set background=dark                     " tell vim what the background color looks like
 set cc=200                              " set an 80 column border for good coding style
 set clipboard=unnamed,unnamedplus               " Copy paste between vim and everything else
-set cmdheight=3                         " More space for displaying messages
+set cmdheight=2                         " More space for displaying messages
 set conceallevel=0                      " So that I can see `` in markdown files
-set cursorline                          " highlight current cursorline
+set cursorline                          " highlight current cursor line
 set encoding=utf-8                      " The encoding displayed
 set expandtab                           " converts tabs to white space
 set fileencoding=utf-8                  " The encoding written to file
 set formatoptions-=cro                  " Stop newline continution of comments
+"set guifont=FiraCode\ Nerd\ Font\ Mono:h13
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set hlsearch                            " highlight search 
 set ignorecase                          " case insensitive 
@@ -56,7 +73,7 @@ set mouse=v                             " middle-click paste with
 set nobackup                            " This is recommended by coc
 set nocompatible                        " disable compatibility to old-time vi
 set noshowmode                          " We don't need to see things like -- INSERT -- anymore
-set nowrap                              " Display long lines as just one line
+"set nowrap                              " Display long lines as just one line
 set nowritebackup                       " This is recommended by coc
 set number                              " add line numbers
 set pumheight=10                        " Makes popup menu smaller
@@ -71,8 +88,6 @@ set smarttab                            " Makes tabbing smarter will realize you
 set softtabstop=4                       " see multiple spaces as tabstops so <BS> does the right thing
 set splitbelow                          " Horizontal splits will automatically be below
 set splitright                          " Vertical splits will automatically be to the right
-
-
 " STATUSLINE {{{
 set statusline+=\ %y                    " FileType of the file
 set statusline+=\ %F                    " Full path to the file
@@ -80,8 +95,6 @@ set statusline+=%=                      " Align to Right
 set statusline+=[%c:%l/%L]                      " Current Lline
 set statusline+=\ [%p%%]
 " }}}
-
-
 set t_Co=256                            " Support 256 colors
 set tabstop=4                           " number of columns occupied by a tab 
 set timeoutlen=500                      " By default timeoutlen is 1000 ms
