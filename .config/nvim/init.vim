@@ -1,15 +1,53 @@
+" Thu Nov  4 12:31:26 AM MDT 2021
+" Wed Nov  3 11:35:03 PM MDT 2021
+" /home/jaime/.config/nvim/init.im
+
+let mapleader = "/"
 
 
-let mapleader = ","
+" https://github.com/junegunn/vim-plug#usage
+" Specify a directory for plugins
+" call plug#begin()
+call plug#begin('~/.vim/plugged')
+" Make sure you use single quotes
+" For example:
+" Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
+" Plug 'junegunn/vim-easy-align'
+" Any valid git URL is allowed
+" Plug 'https://github.com/junegunn/vim-github-dashboard.git'
+"let g:termguicolors = true  Plug 'https://github.com/junegunn/vim-github-dashboard.git'
+" Multiple Plug commands can be written in a single line using | separators
+" Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
+" Initialize plugin system
+Plug 'Mofiqul/dracula.nvim'
+Plug 'tpope/vim-sensible'
+Plug 'vim-airline/vim-airline'
+Plug 'https://github.com/ap/vim-css-color.git'
+call plug#end()
+
+
+" let g:termguicolors = true
+" let g:dracula_show_end_of_buffer = true  " default false, Turn on or off EndOfBuffer symbol
+" let g:dracula_transparent_bg = true " default false, enables transparent background
+colorscheme dracula
+
+
+" Remap Ctrl + s to save
+" https://stackoverflow.com/questions/3446320/in-vim-how-to-map-save-to-ctrl-s
+noremap <silent> <C-S>          :update<CR>
+vnoremap <silent> <C-S>         <C-C>:update<CR>
+inoremap <silent> <C-S>         <C-O>:update<CR>
 
 
 nnoremap <esc><esc> :nohlsearch<cr>     " Un-highlight by pressing ESCAPE twice
-nnoremap <leader>s :w!<cr>              " Fast Saving
-nnoremap <leader>q :q!<cr>              " Fast Quit
+" nnoremap <leader>s :w!<cr>              " Fast Saving
+nnoremap ss :w!<cr>              " Fast Saving
+" nnoremap <leader>q :q!<cr>              " Fast Quit
+nnoremap qq :q!<cr>              " Fast Quit
 nnoremap <leader>v :vsplit<cr>          " Split v
 nnoremap <leader>h :split<cr>           " Split h
-nnoremap cp :let @* = expand("%")<cr>   " Copy current filename: init.vim
-nnoremap cP :let @* = expand("%:p")<cr> " Copy current filepath: /home/jaime/.config/nvim/init.vim
+nnoremap cf :let @* = expand("%")<cr>   " Copy current filename: init.vim
+nnoremap cp :let @* = expand("%:p")<cr> " Copy current filepath: /home/jaime/.config/nvim/init.vim
 nnoremap td :-r !date<cr>               " Insert TimeDate stamp
 
 
@@ -27,6 +65,9 @@ endif
 "command! -bang -nargs=*  All
 "  \ call fzf#run(fzf#wrap({'source': 'rg --files --hidden --no-ignore-vcs --glob "!{node_modules/*,.git/*}"', 'down': '40%', 'options': '--expect=ctrl-t,ctrl-x,ctrl-v --multi --reverse' }))
 "nnoremap <silent> <leader>o :All<cr>
+"" Plug '~/.fzf'
+"" Plug 'junegunn/fzf.vim'
+
 
 
 " CODE FOLDING, hit 'za' IN NORMAL! {{{
@@ -51,7 +92,7 @@ filetype plugin on
 filetype on
 set autochdir                           " Your working directory will always be the same as your working directory
 set autoindent                          " indent a new line the same amount as the line just typed
-set background=dark                     " tell vim what the background color looks like
+" set background=dark                     " tell vim what the background color looks like
 set cc=200                              " set an 80 column border for good coding style
 set clipboard=unnamed,unnamedplus               " Copy paste between vim and everything else
 set cmdheight=2                         " More space for displaying messages
@@ -112,4 +153,5 @@ syntax on                               " syntax highlighting
 " https://github.com/kyoz/neovim
 " https://www.reddit.com/r/vim/comments/p4tlux/what_are_the_most_useful_lines_in_your_vimrc/
 " https://neovim.io/doc/user/
+
 
