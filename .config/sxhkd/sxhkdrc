@@ -4,7 +4,8 @@
 
 # terminal emulator
 super + Return
-	xfce4-terminal
+#	xfce4-terminal
+    kitty
 
 # program launcher
 super + d
