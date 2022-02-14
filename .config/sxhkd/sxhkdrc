@@ -2,6 +2,12 @@
 # wm independent hotkeys
 #
 
+
+# installed greenclip clipboard manager
+super + x
+  rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
+  
+
 # terminal emulator
 super + Return
 #	xfce4-terminal
@@ -178,6 +184,9 @@ super + w
 
 super + n 
   thunar  
+
+super + b
+  doublecmd
 
 super + F1
   ~/.config/bspwm/scripts/keybindings_rofi.sh
