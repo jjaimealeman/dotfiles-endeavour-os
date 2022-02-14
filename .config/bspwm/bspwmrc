@@ -11,7 +11,13 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor -d I II III IV V VI VII VIII IX X
+
+bspc config normal_frame_opacity 0.9
+bspc config focused_frame_opacity 0.7
+
+
+# bspc monitor -d I II III IV V VI VII VIII IX X
+bspc monitor -d I II III IV V
 
 bspc config border_width           1
 bspc config window_gap             8
@@ -25,10 +31,12 @@ bspc config focus_follows_pointer  true
 
 # bspc rule -a Gimp desktop='^8' state=floating follow=on
 # bspc rule -a Chromium desktop='^2'
-bspc rule -a kitty   desktop='^1' follow=on
-bspc rule -a firefox desktop='^2' follow=on
-bspc rule -a Thunar  desktop='^3' follow=on
-bspc rule -a Code    desktop='^4' follow=on
+bspc rule -a kitty      desktop='^1' follow=on
+bspc rule -a firefox    desktop='^2' follow=on
+bspc rule -a Thunar     desktop='^3' follow=on
+bspc rule -a doublecmd  desktop='^3' follow=on
+bspc rule -a Code       desktop='^4' follow=on
+bspc rule -a obsidian   desktop='^5' follow=on
 
 # bspc rule -a mplayer2 state=floating
 # bspc rule -a Yad state=floating
