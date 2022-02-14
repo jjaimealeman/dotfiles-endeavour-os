@@ -1,0 +1,90 @@
+# Wed Dec 01 2021 17:58:17
+
+alias v='nvim'
+alias vi='nvim'
+alias vim='nvim'
+alias lvim='nvim'
+#alias vi   = '/usr/bin/nvim'
+#alias lvim = '/usr/bin/nvim'
+
+# alias vim='sh ~/.local/bin/lvim'
+# alias nvim='sh ~/.local/bin/lvim'
+# alias lvim='sh ~/.local/bin/lvim'
+
+alias ll='exa -la -F --icons --git --group-directories-first --git'
+alias ld='exa -lDa --icons --sort name --git'
+alias neo='clear && neofetch'
+alias neot='clear && neofetch && tuptime'
+alias neos='clear && neofetch && tuptime && speedtest'
+alias lol='clear && fortune | cowsay -f tux | lolcat'
+alias hist='history | grep --color'
+alias count='find . -type f | wc -l'
+alias htop='bpytop'
+alias ran='ranger'
+# CD into top lever of git project.
+##-alias cdg="cd `git rev-parse --show-toplevel`"
+
+## IMAGE OPTIMIZATION
+alias optimizepng='optipng'
+alias optimizejpg='jpegoptim'
+
+
+alias myip='curl http://ipecho.net/plain; echo'
+
+## Confirm before I overwrite something.
+alias cp='cp -i'
+alias mv='mv -i'
+alias rm='rm -i'
+
+## Don't DELETE! Put it in the Trash, so I can restore later.
+alias trash='mv --force -t ~/.local/share/Trash '
+
+# easier to read disk
+alias df='df -h'     # human-readable sizes
+alias free='free -m' # show sizes in MB
+
+alias matrix='neo-matrix --message "The Matrix has you"'
+
+# alias fzfi="rg --files --hidden --follow --no-ignore-vcs -g '!{node_modules,.git}' | fzf"
+# alias vzfi="vim $(fzfi)"
+
+
+# https://www.chrisatmachine.com/Linux/03-AUR-yay/
+# FZF search on YAY
+# alias fy='yay -Slq | fzf -m --preview 'cat <(yay -Si {1}) <(yay -Fl {1} | awk "{print \$2}")' | xargs -ro  yay -S'
+
+fzfyay () {
+  yay -Slq | fzf -m --preview 'cat <(yay -Si {1}) <(yay -Fl {1} | awk "{print \$2}")' | xargs -ro  yay -S
+}
+alias fy='fzfyay'
+alias fz='rg --files --hidden --follow --no-ignore-vcs -g "!{node_modules,.git}" | fzf'
+alias fv='vim $(fz)'
+
+
+# Sat Jan 01 2022 20:38:03
+# https://www.smashingmagazine.com/2015/06/efficient-image-resizing-with-imagemagick/#bash-shell
+#   Takes 3 parameters:
+#     input_image.jpg
+#     output size in pixels
+#     output folder (must already exist)
+smartresize() {
+   mogrify -path $3 -filter Triangle -define filter:support=2 -thumbnail $2 -unsharp 0.25x0.08+8.3+0.045 -dither None -posterize 136 -quality 82 -define jpeg:fancy-upsampling=off -define png:compression-filter=5 -define png:compression-level=9 -define png:compression-strategy=1 -define png:exclude-chunk=all -interlace none -colorspace sRGB $1
+}
+
+# Takes 3 parameters:
+#   input: original_image
+#   output: original_image renamed with white border
+#   output: original_image renamed with white border and black border
+#   EXAMPLE: borderme image1.jpg image2.jpg image3.jpg
+borderme() {
+	# convert $1 -bordercolor white -border 2 $2
+	# convert $2 -bordercolor black -border 2 $3
+	convert $1 -bordercolor white -shave 4 -border 4 $2
+	convert $2 -bordercolor black -shave 2 -border 2 $3
+}
+
+# https://github.com/GoogleChromeLabs/squoosh/tree/dev/cli
+squoosh() {
+  npx @squoosh/cli --webp auto $1
+}
+
