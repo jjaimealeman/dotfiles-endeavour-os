@@ -1,4 +1,21 @@
+#############################################
+# START KEEPING TRACK OF WHAT I CHANGE HERE #
+#############################################
 # Wed Dec 01 2021 17:58:17
+# Friday, April 1, 2022 @ 05:55:17 PM // add git alias: ga, gd, gl, gs
+# Friday, April 1, 2022 @ 07:22:45 PM // installed scour - https://github.com/scour-project/scour
+# Sunday, April 3, 2022 @ 07:50:15 PM // tree function
+#
+
+treee(){
+   tree -f -I "node_modules" -P ${1}
+}
+
+
+alias ga='git add -A && git commit'
+alias gd='git diff --color | diff-so-fancy'
+alias gl="git log --oneline --abbrev-commit --all --graph --decorate --color --pretty=format:'%C(yellow)%h%Creset -%C(red)%d%Creset %s %C(dim green)(%cr)'"
+alias gs='git status -sb'
 
 alias v='nvim'
 alias vi='nvim'
@@ -11,15 +28,17 @@ alias lvim='nvim'
 # alias nvim='sh ~/.local/bin/lvim'
 # alias lvim='sh ~/.local/bin/lvim'
 
-alias ll='exa -la -F --icons --git --group-directories-first --git'
-alias ld='exa -lDa --icons --sort name --git'
-alias neo='clear && neofetch'
-alias neot='clear && neofetch && tuptime'
-alias neos='clear && neofetch && tuptime && speedtest'
-alias lol='clear && fortune | cowsay -f tux | lolcat'
-alias hist='history | grep --color'
 alias count='find . -type f | wc -l'
+alias greenclipk='pkill greenclip && greenclip clear && greenclip daemon &'
+alias hist='history | grep --color'
 alias htop='bpytop'
+alias ld='exa -lDa --icons --sort name --git'
+alias ll='exa -la -F --icons --git --group-directories-first --git'
+alias lll='exa -la -F -s=mod -r --icons --git --group-directories-first --git'
+alias lol='clear && fortune | cowsay -f tux | lolcat'
+alias neo='clear && neofetch'
+alias neos='clear && neofetch && tuptime && speedtest'
+alias neot='clear && neofetch && tuptime'
 alias ran='ranger'
 # CD into top lever of git project.
 ##-alias cdg="cd `git rev-parse --show-toplevel`"
@@ -27,6 +46,20 @@ alias ran='ranger'
 ## IMAGE OPTIMIZATION
 alias optimizepng='optipng'
 alias optimizejpg='jpegoptim'
+
+
+# svgo file.svg -o file.min.svg
+# alias svgo='svgo $1 -o $2'
+#
+
+# Friday, April 1, 2022 @ 07:22:45 PM
+# https://github.com/scour-project/scour
+# alias svg='scour'
+# scour -i input.svg -o output.svg --enable-viewboxing --enable-id-stripping --enable-comment-stripping --shorten-ids --indent=none
+svg () {
+	scour -i $1 -o $2 --enable-viewboxing --enable-id-stripping --enable-comment-stripping --shorten-ids --indent=none
+}
+
 
 
 alias myip='curl http://ipecho.net/plain; echo'
@@ -52,7 +85,6 @@ alias matrix='neo-matrix --message "The Matrix has you"'
 # https://www.chrisatmachine.com/Linux/03-AUR-yay/
 # FZF search on YAY
 # alias fy='yay -Slq | fzf -m --preview 'cat <(yay -Si {1}) <(yay -Fl {1} | awk "{print \$2}")' | xargs -ro  yay -S'
-
 fzfyay () {
   yay -Slq | fzf -m --preview 'cat <(yay -Si {1}) <(yay -Fl {1} | awk "{print \$2}")' | xargs -ro  yay -S
 }
@@ -87,4 +119,3 @@ borderme() {
 squoosh() {
   npx @squoosh/cli --webp auto $1
 }
-
