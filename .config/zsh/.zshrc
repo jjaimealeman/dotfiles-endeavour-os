@@ -67,7 +67,24 @@ export MANPAGER='nvim +Man!'
 # Fri Nov 26
 # Completion for nb
 # https://github.com/xwmx/nb/tree/master/etc
-fpath=(~/.config/zsh/completion $fpath)
+# fpath=(~/.config/zsh/completion $fpath)
 
 feh --bg-scale ~/Pictures/Wallpapers/archlinux.png
+
+# Monday, March 21, 2022 @ 09:14:38 AM
+# https://github.com/webfansplz/vite-plugin-vue-inspector
+export VUE_EDITOR=code
+
+# Monday, March 21
+eval $(thefuck --alias)
+
+# Wednesday March 23, 2022
+# Ran yarn update.
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+# Saturday, April 2, 2022 @ 04:19:22 PM
+# SyncThing doesn't auto start, so imma fix that.
+# syncthing &&
+
+
 
