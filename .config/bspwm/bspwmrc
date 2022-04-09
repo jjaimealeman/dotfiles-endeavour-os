@@ -34,7 +34,7 @@ bspc config focus_follows_pointer  true
 bspc rule -a kitty      desktop='^1' follow=on
 bspc rule -a firefox    desktop='^2' follow=on
 bspc rule -a Thunar     desktop='^3' follow=on
-bspc rule -a doublecmd  desktop='^3' follow=on
+# bspc rule -a doublecmd  desktop='^3' follow=on
 bspc rule -a Code       desktop='^4' follow=on
 bspc rule -a obsidian   desktop='^5' follow=on
 
