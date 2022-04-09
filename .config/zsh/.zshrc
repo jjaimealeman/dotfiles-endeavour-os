@@ -46,7 +46,9 @@ export PATH=~/.npm-global/bin:$PATH
 ## When searching with fzf, don't scan .git or node_modules folders
 ## SOURCE https://dev.to/matrixersp/how-to-use-fzf-with-ripgrep-to-selectively-ignore-vcs-files-4e27
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
-export FZF_DEFAULT_COMMAND="rg --files --hidden --follow --no-ignore-vcs"
+## export FZF_DEFAULT_COMMAND="rg --files --hidden --follow --no-ignore-vcs"
+## export FZF_DEFAULT_COMMAND="rg --files --hidden --follow -g !.git"
+export FZF_DEFAULT_COMMAND="rg --files --hidden --follow --ignore-vcs -g '!{node_modules,.git,**/node_modules,**/.git}'"
 export FZF_DEFAULT_OPTS="--height 96% --reverse --preview 'bat {}'"
 
 # Thu Nov  4 10:52:10 AM MDT 2021
