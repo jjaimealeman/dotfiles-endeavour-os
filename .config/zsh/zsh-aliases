@@ -89,7 +89,8 @@ fzfyay () {
   yay -Slq | fzf -m --preview 'cat <(yay -Si {1}) <(yay -Fl {1} | awk "{print \$2}")' | xargs -ro  yay -S
 }
 alias fy='fzfyay'
-alias fz='rg --files --hidden --follow --no-ignore-vcs -g "!{node_modules,.git}" | fzf'
+## alias fz='rg --files --hidden --follow --no-ignore-vcs -g "!{node_modules,.git}" | fzf'
+alias fz='rg --files --hidden --follow --ignore-vcs -g "!{node_modules,.git}" | fzf'
 alias fv='vim $(fz)'
 
 
