@@ -2,12 +2,18 @@
 # wm independent hotkeys
 #
 
+# installed https://github.com/Mange/rofi-emoji
+super + f
+  rofi -show emoji -modi emoji
+
+# installed DoubleCommander
+# super + b
+#   doublecmd
 
 # installed greenclip clipboard manager
 super + x
   rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
   
-
 # terminal emulator
 super + Return
 #	xfce4-terminal
@@ -173,9 +179,11 @@ XF86MonBrightnessDown
 
 # Screenshot
 Print
+#  scrot ~/Pictures/Screenshot-$(date +%F_%T).png && thunar ~/Pictures
   scrot ~/Pictures/Screenshot-$(date +%F_%T).png
 
 super+Print
+#  ~/.config/bspwm/scripts/screenshot.sh && thunar ~/Pictures
   ~/.config/bspwm/scripts/screenshot.sh
 
 # Shortcuts
@@ -184,9 +192,6 @@ super + w
 
 super + n 
   thunar  
-
-super + b
-  doublecmd
 
 super + F1
   ~/.config/bspwm/scripts/keybindings_rofi.sh
