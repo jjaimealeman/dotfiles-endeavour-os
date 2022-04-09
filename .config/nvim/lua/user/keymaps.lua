@@ -32,8 +32,16 @@ keymap("n", "<C-Left>", ":vertical resize -2<CR>", opts)
 keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
 
 -- Navigate buffers
-keymap("n", "<S-l>", ":bnext<CR>", opts)
-keymap("n", "<S-h>", ":bprevious<CR>", opts)
+--keymap("n", "<S-l>", ":bnext<CR>", opts)
+keymap("n", "<Tab>", ":bnext<CR>", opts)
+--keymap("n", "<S-h>", ":bprevious<CR>", opts)
+keymap("n", "<S-Tab>", ":bprevious<CR>", opts)
+
+-- Undo and Undo
+-- nnoremap <C-Z> u
+-- nnoremap <C-Y> <C-R>
+-- keymap("n", "u", "u")
+-- keymap("n", "<S-u>", "<C-R>")
 
 -- Move text up and down
 keymap("n", "<A-j>", "<Esc>:m .+1<CR>==gi", opts)

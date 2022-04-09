@@ -21,4 +21,5 @@ require "user.whichkey"
 require "user.autocommands"
 
 vim.opt.relativenumber = true
--- vim.opt.scrolloff = 25
+vim.opt.scrolloff = 27
+vim.opt.wrap = true

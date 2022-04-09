@@ -75,12 +75,17 @@ return packer.startup(function(use)
   use "L3MON4D3/LuaSnip" --snippet engine
   use "rafamadriz/friendly-snippets" -- a bunch of snippets to use
 
-  -- LSP
+  -- /LSP
   use "neovim/nvim-lspconfig" -- enable LSP
   use "williamboman/nvim-lsp-installer" -- simple to use language server installer
   use "tamago324/nlsp-settings.nvim" -- language server settings defined in json for
   use "jose-elias-alvarez/null-ls.nvim" -- for formatters and linters
-
+  -- ADDING PLUGIN FOR TAILWINDCSS: Tuesday April 05
+  -- 
+  -- https://github.com/tailwindlabs/tailwindcss-intellisense/tree/master/packages/tailwindcss-language-server
+--  use "neovim/nvim-lspconfig"
+  require'lspconfig'.tailwindcss.setup{}
+  
   -- Telescope
   use "nvim-telescope/telescope.nvim"
 
