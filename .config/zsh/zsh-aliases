@@ -106,17 +106,18 @@ smartresize() {
 
 # Takes 3 parameters:
 #   input: original_image
-#   output: original_image renamed with white border
-#   output: original_image renamed with white border and black border
+#   output: original_image renamed with 2px white border
+#   output: original_image renamed with 2px black border
 #   EXAMPLE: borderme image1.jpg image2.jpg image3.jpg
 borderme() {
 	# convert $1 -bordercolor white -border 2 $2
 	# convert $2 -bordercolor black -border 2 $3
-	convert $1 -bordercolor white -shave 4 -border 4 $2
+	convert $1 -bordercolor white -shave 2 -border 2 $2
 	convert $2 -bordercolor black -shave 2 -border 2 $3
 }
 
 # https://github.com/GoogleChromeLabs/squoosh/tree/dev/cli
-squoosh() {
-  npx @squoosh/cli --webp auto $1
-}
+#squoosh() {
+#  npx @squoosh/cli --webp auto $1
+#}
+
