@@ -71,7 +71,12 @@ export MANPAGER='nvim +Man!'
 # https://github.com/xwmx/nb/tree/master/etc
 # fpath=(~/.config/zsh/completion $fpath)
 
-feh --bg-scale ~/Pictures/Wallpapers/archlinux.png
+
+#########################################################################################
+# Is now called in /home/jaime/.config/bspwm/bspwmrc
+#
+# feh --bg-scale ~/Pictures/Wallpapers/endeavouros.jpeg
+#########################################################################################
 
 # Monday, March 21, 2022 @ 09:14:38 AM
 # https://github.com/webfansplz/vite-plugin-vue-inspector
@@ -88,5 +93,7 @@ export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 # SyncThing doesn't auto start, so imma fix that.
 # syncthing &&
 
-
-
+# Tuesday, May 3, 2022 @ 10:03:17 AM
+# adding path to funsplash
+# export PATH="/home/jaime/_ghgists/funsplash.sh:$PATH"
+export PATH="/home/jaime/www/_ghgists/funsplash.sh:$PATH"
