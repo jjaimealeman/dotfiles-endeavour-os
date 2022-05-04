@@ -1,9 +1,15 @@
-#
-# wm independent hotkeys
-#
+##
+##  ███████╗██╗  ██╗██╗  ██╗██╗  ██╗██████╗ ██████╗  ██████╗
+##  ██╔════╝╚██╗██╔╝██║  ██║██║ ██╔╝██╔══██╗██╔══██╗██╔════╝
+##  ███████╗ ╚███╔╝ ███████║█████╔╝ ██║  ██║██████╔╝██║
+##  ╚════██║ ██╔██╗ ██╔══██║██╔═██╗ ██║  ██║██╔══██╗██║
+##  ███████║██╔╝ ██╗██║  ██║██║  ██╗██████╔╝██║  ██║╚██████╗
+##  ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝ ╚═════╝
+## 204
+
 
 # installed https://github.com/Mange/rofi-emoji
-super + f
+super + shift + f
   rofi -show emoji -modi emoji
 
 # installed DoubleCommander
@@ -13,7 +19,7 @@ super + f
 # installed greenclip clipboard manager
 super + x
   rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
-  
+
 # terminal emulator
 super + Return
 #	xfce4-terminal
@@ -37,7 +43,7 @@ super + shift + d
                 -columns 2 -padding 50 -hide-scrollbar -terminal xfce4-terminal \
                 -show-icons -drun-icon-theme "Arc-X-D" -font "Droid Sans Regular 10"
 
-# power-menu 
+# power-menu
 super + shift + e
      ~/.config/rofi/powermenu.sh
 
@@ -165,7 +171,7 @@ XF86AudioLowerVolume
 # still
 XF86AudioMute
   amixer -D pulse sset Master toggle-mute
-  
+
 # amixer -q set Master toggle
 # Simple amixer command seems to have problems unmuting device
 
@@ -187,11 +193,11 @@ super+Print
   ~/.config/bspwm/scripts/screenshot.sh
 
 # Shortcuts
-super + w 
+super + w
   firefox
 
-super + n 
-  thunar  
+super + n
+  thunar
 
 super + F1
   ~/.config/bspwm/scripts/keybindings_rofi.sh
