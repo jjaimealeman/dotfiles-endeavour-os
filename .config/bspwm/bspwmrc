@@ -1,34 +1,34 @@
 #! /bin/sh
 
-##
+## /home/jaime/.config/bspwm/bspwmrc
 ## ██████╗ ███████╗██████╗ ██╗    ██╗███╗   ███╗██████╗  ██████╗
 ## ██╔══██╗██╔════╝██╔══██╗██║    ██║████╗ ████║██╔══██╗██╔════╝
 ## ██████╔╝███████╗██████╔╝██║ █╗ ██║██╔████╔██║██████╔╝██║
 ## ██╔══██╗╚════██║██╔═══╝ ██║███╗██║██║╚██╔╝██║██╔══██╗██║
 ## ██████╔╝███████║██║     ╚███╔███╔╝██║ ╚═╝ ██║██║  ██║╚██████╗
 ## ╚═════╝ ╚══════╝╚═╝      ╚══╝╚══╝ ╚═╝     ╚═╝╚═╝  ╚═╝ ╚═════╝
-##
+## 95
+
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-
-# Tuesday, May 3, 2022 @ 10:31:33 PM
-# How to Set Up Dual Monitors with BSPWM + Polybar
-# https://www.youtube.com/watch?v=FAimFhf84QI
 if [[ $(xrandr -q | grep 'HDMI1 connected') ]]; then
-    xrandr --output eDP1 --primary --mode 1920x1080 --pos 0x1080 --rotate normal --output DP1 --off --output HDMI1 --mode 1920x1080 --pos 0x0 --rotate normal --output HDMI2 --off --output VIRTUAL1 --off
+    xrandr --output eDP1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output DP1 --off --output HDMI1 --mode 1920x1080 --pos 1920x0 --rotate normal --output HDMI2 --off --output VIRTUAL1 --off --right-of eDP1
 fi
-bspc monitor HDMI1 -d 6 7 8 9 0
-bspc monitor eDP1 -d 1 2 3 4 5
+
+# bspc monitor -d I II III IV V VI VII VIII IX X
+bspc monitor eDP1 -d 1 2 3 4
+bspc monitor HDMI1 -d 5 6 7 8
+
+
+
 
 bspc config normal_frame_opacity 0.9
 bspc config focused_frame_opacity 0.7
 
-# bspc monitor -d I II III IV V
-# bspc monitor -d 1 2 3 4 5
 
 bspc config border_width           1
-bspc config window_gap             5
+bspc config window_gap             8
 bspc config top_padding            0
 
 bspc config split_ratio            0.5
@@ -37,13 +37,14 @@ bspc config gapless_monocle        true
 bspc config pointer_follows_focus  true
 bspc config focus_follows_pointer  true
 
-# bspc rule -a kitty      desktop='^1' follow=on
-# bspc rule -a firefox    desktop='^2' follow=on
-# bspc rule -a thunar     desktop='^3' follow=on
-# bspc rule -a code       desktop='^4' follow=on
-# bspc rule -a chromium   desktop='^4' follow=on
-# bspc rule -a obsidian   desktop='^5' follow=on
-# bspc rule -a obs        desktop='^5' follow=on
+# bspc rule -a Gimp desktop='^8' state=floating follow=on
+# bspc rule -a Chromium desktop='^2'
+bspc rule -a kitty      desktop='^1' follow=on
+bspc rule -a firefox    desktop='^2' follow=on
+bspc rule -a Thunar     desktop='^3' follow=on
+# bspc rule -a doublecmd  desktop='^3' follow=on
+bspc rule -a Code       desktop='^4' follow=on
+bspc rule -a obsidian   desktop='^5' follow=on
 
 # bspc rule -a mplayer2 state=floating
 # bspc rule -a Yad state=floating
@@ -59,7 +60,7 @@ bspc config active_border_color         "#073642"
 # Autostart
 #
 # Set display from arandr saved script
-# sh ~/.screenlayout/monitor.sh &
+sh ~/.screenlayout/monitor.sh &
 
 # Bar
 ~/.config/polybar/launch.sh &
@@ -71,10 +72,7 @@ bspc config active_border_color         "#073642"
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
 # Wallpaper
-# nitrogen --restore &
-# feh --bg-scale ~/Pictures/Wallpapers/endeavouros.jpeg
-feh --bg-scale ~/Pictures/Wallpapers/EndeavourOS_2.jpg
-
+nitrogen --restore &
 
 # Dex
 dex -a -s /etc/xdg/autostart/:~/.config/autostart/

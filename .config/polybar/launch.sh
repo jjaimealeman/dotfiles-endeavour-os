@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 
-##
+## /home/jaime/.config/polybar/launch.sh
 ## ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗     ██╗      █████╗ ██╗   ██╗███╗   ██╗ ██████╗██╗  ██╗
 ## ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗    ██║     ██╔══██╗██║   ██║████╗  ██║██╔════╝██║  ██║
 ## ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝    ██║     ███████║██║   ██║██╔██╗ ██║██║     ███████║
 ## ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗    ██║     ██╔══██║██║   ██║██║╚██╗██║██║     ██╔══██║
 ## ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║    ███████╗██║  ██║╚██████╔╝██║ ╚████║╚██████╗██║  ██║
 ## ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝╚═╝  ╚═╝
-## 27
+## 25
 
 
 # Terminate already running bar instances
@@ -17,10 +17,8 @@ killall -q polybar
 while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 
 # Launch Polybar
-if [[ $(xrandr -q | grep 'eDP1 connected') ]]; then
-    polybar top -c ~/.config/polybar/config.ini &
-fi
+polybar primary -c ~/.config/polybar/config.ini &
 
 if [[ $(xrandr -q | grep 'HDMI1 connected') ]]; then
-    polybar top_external -c ~/.config/polybar/config.ini &
+    polybar secondary -c ~/.config/polybar/config.ini &
 fi
