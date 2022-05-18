@@ -76,6 +76,8 @@ export MANPAGER='nvim +Man!'
 # Is now called in /home/jaime/.config/bspwm/bspwmrc
 #
 # feh --bg-scale ~/Pictures/Wallpapers/endeavouros.jpeg
+feh --bg-fill --randomize ~/Pictures/Wallpapers/*
+
 #########################################################################################
 
 # Monday, March 21, 2022 @ 09:14:38 AM
@@ -97,3 +99,4 @@ export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 # adding path to funsplash
 # export PATH="/home/jaime/_ghgists/funsplash.sh:$PATH"
 export PATH="/home/jaime/www/_ghgists/funsplash.sh:$PATH"
+
