@@ -186,7 +186,8 @@ XF86MonBrightnessDown
 # Screenshot
 Print
 #  scrot ~/Pictures/Screenshot-$(date +%F_%T).png && thunar ~/Pictures
-  scrot ~/Pictures/Screenshot-$(date +%F_%T).png
+#  scrot ~/Pictures/Screenshot-$(date +%F_%T).png
+	flameshot gui
 
 super+Print
 #  ~/.config/bspwm/scripts/screenshot.sh && thunar ~/Pictures
