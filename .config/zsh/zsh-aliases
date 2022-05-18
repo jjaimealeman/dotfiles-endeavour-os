@@ -39,7 +39,7 @@ alias lol='clear && fortune | cowsay -f tux | lolcat'
 alias neo='clear && neofetch'
 alias neos='clear && neofetch && tuptime && speedtest'
 alias neot='clear && neofetch && tuptime'
-alias ran='ranger'
+alias r='ranger'
 # CD into top lever of git project.
 ##-alias cdg="cd `git rev-parse --show-toplevel`"
 
@@ -121,3 +121,5 @@ borderme() {
 #  npx @squoosh/cli --webp auto $1
 #}
 
+# Linux System optimizor and monitoring
+# stacer
