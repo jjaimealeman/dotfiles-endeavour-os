@@ -32,6 +32,7 @@ zsh_add_file "zsh-prompt"
 zsh_add_plugin "zsh-users/zsh-autosuggestions"
 zsh_add_plugin "zsh-users/zsh-syntax-highlighting"
 zsh_add_plugin "zsh-users/zsh-completions"
+zsh_add_plugin "agkozak/zsh-z"
 
 
 # Wed Nov  3 05:38:04 AM MDT 2021
@@ -76,7 +77,8 @@ export MANPAGER='nvim +Man!'
 # Is now called in /home/jaime/.config/bspwm/bspwmrc
 #
 # feh --bg-scale ~/Pictures/Wallpapers/endeavouros.jpeg
-feh --bg-fill --randomize ~/Pictures/Wallpapers/*
+# feh --bg-fill --randomize ~/Pictures/Wallpapers/*
+feh --bg-fill --randomize /home/jaime/AllPictures/DatsunZ/*
 
 #########################################################################################
 
@@ -99,4 +101,3 @@ export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 # adding path to funsplash
 # export PATH="/home/jaime/_ghgists/funsplash.sh:$PATH"
 export PATH="/home/jaime/www/_ghgists/funsplash.sh:$PATH"
-
