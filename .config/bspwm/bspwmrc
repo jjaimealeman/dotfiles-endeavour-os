@@ -7,10 +7,7 @@
 ## ██╔══██╗╚════██║██╔═══╝ ██║███╗██║██║╚██╔╝██║██╔══██╗██║
 ## ██████╔╝███████║██║     ╚███╔███╔╝██║ ╚═╝ ██║██║  ██║╚██████╗
 ## ╚═════╝ ╚══════╝╚═╝      ╚══╝╚══╝ ╚═╝     ╚═╝╚═╝  ╚═╝ ╚═════╝
-## 91
-
-# feh --bg-fill --randomize ~/Pictures/Wallpaper/*
-# feh --bg-scale ~/Pictures/Wallpapers/Endy_vector_watching.png
+## 86
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
@@ -22,12 +19,8 @@ fi
 bspc monitor eDP1 -d 1 2 3 4
 bspc monitor HDMI1 -d 5 6 7 8
 
-
-
-
 bspc config normal_frame_opacity 0.9
 bspc config focused_frame_opacity 0.7
-
 
 bspc config border_width           1
 bspc config window_gap             8
