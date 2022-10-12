@@ -7,6 +7,7 @@ zstyle ':completion:*' list-colors ''
 zstyle ':completion:*' max-errors 10 numeric
 zstyle :compinstall filename '/home/jaime/.zshrc'
 zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}'
+zstyle ':completion:*' menu select
 
 # autoload -Uz compinit
 autoload -Uz compinit && compinit -i
@@ -54,7 +55,7 @@ export FZF_DEFAULT_OPTS="--height 96% --reverse --preview 'bat {}'"
 
 # Thu Nov  4 10:52:10 AM MDT 2021
 eval "$(starship init zsh)"
-eval "$(zoxide init bash)"
+# eval "$(zoxide init bash)"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
@@ -78,7 +79,9 @@ export MANPAGER='nvim +Man!'
 #
 # feh --bg-scale ~/Pictures/Wallpapers/endeavouros.jpeg
 # feh --bg-fill --randomize ~/Pictures/Wallpapers/*
-feh --bg-fill --randomize /home/jaime/AllPictures/DatsunZ/*
+# feh --bg-fill --randomize /home/jaime/AllPictures/DatsunZ/*
+feh --bg-fill --randomize /home/jaime/Pictures/EOS/*
+# Sept 01 2022 // added to crontab -e
 
 #########################################################################################
 
@@ -87,7 +90,7 @@ feh --bg-fill --randomize /home/jaime/AllPictures/DatsunZ/*
 export VUE_EDITOR=code
 
 # Monday, March 21
-eval $(thefuck --alias)
+# eval $(thefuck --alias)
 
 # Wednesday March 23, 2022
 # Ran yarn update.
@@ -101,3 +104,41 @@ export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 # adding path to funsplash
 # export PATH="/home/jaime/_ghgists/funsplash.sh:$PATH"
 export PATH="/home/jaime/www/_ghgists/funsplash.sh:$PATH"
+
+# export GOPATH=/home/jaime/Downloads/go
+# export GOBIN=/home/jaime/Downloads/go/bin
+
+
+## 2022-08-27 // installing LunarVim but path is not found. this should fix it.
+export PATH="$PATH:/home/$USER/.local/bin"
+
+
+# pnpm
+export PNPM_HOME="/home/jaime/.local/share/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm end
+
+# Monday, September 5, 2022 @ 10:42:23 PM
+# having trouble still getting greenclip to autostart
+# let's see if this works
+# systemctl start --user greenclip
+
+# IT'S NOT RECOMMENDED!
+
+# systemctl start --user greenclip.service
+# systemctl enable --user greenclip.service
+# systemctl start --user greenclip
+# systemctl enable --user greenclip
+# systemctl enable --user --now greenclip.service
+
+
+# Thursday, September 8, 2022 @ 10:17:48 PM
+# VS Code shell integration is not working.
+#https://code.visualstudio.com/docs/terminal/shell-integration
+# [[ "$TERM_PROGRAM" == "vscode" ]] && . "$(code --locate-shell-integration-path zsh)"
+
+# Sept 21 2022
+# installed some cargo apps
+# https://betterprogramming.pub/5-cli-tools-made-with-rust-to-improve-already-popular-tools-506af07b6d54
+PATH="$PATH:$HOME/.cargo/bin"
+

@@ -7,15 +7,16 @@
 # Sunday, April 3, 2022 @ 07:50:15 PM // tree function
 #
 
-treee(){
-   tree -f -I "node_modules" -P ${1}
-}
+# treee(){
+#    tree -f -I "node_modules" -P ${1}
+# }
 
 
 alias ga='git add -A && git commit'
 alias gd='git diff --color | diff-so-fancy'
 alias gl="git log --oneline --abbrev-commit --all --graph --decorate --color --pretty=format:'%C(yellow)%h%Creset -%C(red)%d%Creset %s %C(dim green)(%cr)'"
 alias gs='git status -sb'
+alias lg='lazygit'
 
 alias v='nvim'
 alias vi='nvim'
@@ -26,7 +27,7 @@ alias lvim='nvim'
 
 # alias vim='sh ~/.local/bin/lvim'
 # alias nvim='sh ~/.local/bin/lvim'
-# alias lvim='sh ~/.local/bin/lvim'
+alias lvim='sh ~/.local/bin/lvim'
 
 alias count='find . -type f | wc -l'
 alias greenclipk='pkill greenclip && greenclip clear && greenclip daemon &'
@@ -47,6 +48,7 @@ alias r='ranger'
 alias optimizepng='optipng'
 alias optimizejpg='jpegoptim'
 
+alias n='nnn'
 
 # svgo file.svg -o file.min.svg
 # alias svgo='svgo $1 -o $2'
@@ -86,12 +88,12 @@ alias matrix='neo-matrix --message "The Matrix has you"'
 # FZF search on YAY
 # alias fy='yay -Slq | fzf -m --preview 'cat <(yay -Si {1}) <(yay -Fl {1} | awk "{print \$2}")' | xargs -ro  yay -S'
 fzfyay () {
-  yay -Slq | fzf -m --preview 'cat <(yay -Si {1}) <(yay -Fl {1} | awk "{print \$2}")' | xargs -ro  yay -S
+  yay -Slq | fzf -m --preview 'bat <(yay -Si {1}) <(yay -Fl {1} | awk "{print \$2}")' | xargs -ro  yay -S
 }
 alias fy='fzfyay'
 ## alias fz='rg --files --hidden --follow --no-ignore-vcs -g "!{node_modules,.git}" | fzf'
-alias fz='rg --files --hidden --follow --ignore-vcs -g "!{node_modules,.git}" | fzf'
 alias fv='vim $(fz)'
+alias fz='rg --files --hidden --follow --ignore-vcs -g "!{node_modules,.git}" | fzf'
 
 
 # Sat Jan 01 2022 20:38:03
@@ -108,12 +110,19 @@ smartresize() {
 #   input: original_image
 #   output: original_image renamed with 2px white border
 #   output: original_image renamed with 2px black border
-#   EXAMPLE: borderme image1.jpg image2.jpg image3.jpg
+#   EXAMPLE: borderme image.jpg image-white.jpg image-black.jpg
 borderme() {
 	# convert $1 -bordercolor white -border 2 $2
 	# convert $2 -bordercolor black -border 2 $3
 	convert $1 -bordercolor white -shave 2 -border 2 $2
 	convert $2 -bordercolor black -shave 2 -border 2 $3
+	FILE="file.txt"
+	mv -T $FILE "${FILE%%.*}"COPY."${FILE##*.}"
+}
+borderme2() {
+	convert $1 -bordercolor white -shave 4 -border 4 image.jpg
+	convert image.jpg -bordercolor black -shave 2 -border 2 $2
+	trash image.jpg
 }
 
 # https://github.com/GoogleChromeLabs/squoosh/tree/dev/cli
@@ -123,3 +132,4 @@ borderme() {
 
 # Linux System optimizor and monitoring
 # stacer
+# Mailsplring for email
