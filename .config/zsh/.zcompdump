@@ -1,4 +1,4 @@
-#files: 979	version: 5.9
+#files: 969	version: 5.9
 
 _comps=(
 '-' '_precommand'
@@ -143,7 +143,6 @@ _comps=(
 'bzr' '_bzr'
 'c++' '_gcc'
 'cabal' '_cabal'
-'caffeinate' '_caffeinate'
 'cal' '_cal'
 'calendar' '_calendar'
 'cap' '_cap'
@@ -211,6 +210,7 @@ _comps=(
 'compadd' '_compadd'
 'compdef' '_compdef'
 'composer' '_composer'
+'composer.phar' '_composer'
 'composite' '_imagemagick'
 'compress' '_compress'
 'conan' '_conan'
@@ -259,7 +259,6 @@ _comps=(
 'dcopref' '_dcop'
 'dcopstart' '_dcop'
 'dd' '_dd'
-'debuild' '_debuild'
 'declare' '_typeset'
 '-default-' '_default'
 'delta' '_sccs'
@@ -406,7 +405,6 @@ _comps=(
 'fold' '_fold'
 'folder' '_mh'
 'folders' '_mh'
-'force' '_force'
 'fortune' '_fortune'
 'forw' '_mh'
 'fprev' '_mh'
@@ -418,6 +416,7 @@ _comps=(
 'functions' '_typeset'
 'fuser' '_fuser'
 'fusermount' '_fusermount'
+'fvm' '_fvm'
 'fwhois' '_whois'
 'fwupdmgr' '_fwupdmgr'
 'g++' '_gcc'
@@ -483,7 +482,6 @@ _comps=(
 'git' '_git'
 'git-cvsserver' '_git'
 'git-flow' '_git-flow'
-'git-journal' '_git-journal'
 'gitk' '_git'
 'git-pulls' '_git-pulls'
 'git-receive-pack' '_git'
@@ -649,6 +647,7 @@ _comps=(
 'hotjava' '_webbrowser'
 'htop' '_htop'
 'http' '_httpie'
+'https' '_httpie'
 'ibus' '_ibus'
 'iceweasel' '_mozilla'
 'icombine' '_ispell'
@@ -933,6 +932,7 @@ _comps=(
 'nft' '_nftables'
 'nginx' '_nginx'
 'ngrep' '_ngrep'
+'ngrok' '_ngrok'
 'nice' '_nice'
 'nkf' '_nkf'
 'nl' '_nl'
@@ -962,6 +962,7 @@ _comps=(
 'ogginfo' '_vorbis'
 'oksh' '_sh'
 'okular' '_okular'
+'onefetch' '_onefetch'
 'oomctl' '_oomctl'
 'openssl' '_openssl'
 'openstack' '_openstack'
@@ -1334,7 +1335,7 @@ _comps=(
 'strongswan' '_ipsec'
 'stty' '_stty'
 'su' '_su'
-'subl' '_subl'
+'subl' '_sublimetext'
 'subliminal' '_subliminal'
 '-subscript-' '_subscript'
 'sudo' '_sudo'
@@ -1426,11 +1427,6 @@ _comps=(
 'traceroute' '_hosts'
 'transmission-remote' '_transmission'
 'trap' '_trap'
-'trash' '_trash'
-'trash-empty' '_trash-empty'
-'trash-list' '_trash-list'
-'trash-put' '_trash-put'
-'trash-restore' '_trash-restore'
 'tree' '_tree'
 'trial' '_twisted'
 'trove' '_openstack'
@@ -1582,6 +1578,7 @@ _comps=(
 'watcher' '_openstack'
 'wc' '_wc'
 'wemux' '_wemux'
+'wezterm' '_wezterm'
 'wget' '_wget'
 'wg-quick' '_wg-quick'
 'what' '_sccs'
@@ -1733,6 +1730,7 @@ _services=(
 'gnupod_search.pl' 'gnupod_search'
 'gpg2' 'gpg'
 'gzcat' 'gunzip'
+'https' 'http'
 'iceweasel' 'firefox'
 'lzcat' 'unxz'
 'lzma' 'xz'
@@ -1846,46 +1844,44 @@ bindkey '^[~' _bash_complete-word
 
 autoload -Uz _afew _android _archlinux-java _artisan _atach \
             _bat _bitcoin-cli _bluetoothctl _bootctl _bower \
-            _bspc _bundle _busctl _bwrap _caffeinate \
-            _cap _cargo _cask _ccache _cf \
-            _checkupdates _choc _chromium _cmake _code \
-            _coffee _composer _conan _concourse _console \
-            _coredumpctl _cppcheck _curl _dad _debuild \
-            _dget _dhcpcd _diana _direnv _docpad \
-            _downgrade _drush _ecdsautil _emulator _envdir \
-            _exa _exportfs _fab _fail2ban-client _fd \
-            _ffind _firewalld _fleetctl _flutter _force \
-            _fwupdmgr _gas _ghc _gist _git-flow \
-            _git-journal _git-pulls _git-revise _git-wtf _glances \
-            _golang _google _gpgconf _gtk-launch _helix \
-            _hello _hledger _homestead _hostnamectl _httpie \
-            _ibus _include-what-you-use _inxi _jmeter _jmeter-plugins \
-            _jonas _journalctl _jrnl _kak _kernel-install \
-            _kitchen _kitty _knife _language_codes _libinput \
-            _lilypond _localectl _loginctl _lunchy _machinectl \
-            _mc _middleman _mina _mix _mkinitcpio \
-            _mpv _mssh _mussh _mvn _nano \
-            _nanoc _netctl _networkctl _nftables _nnn \
-            _node _nvm _oomctl _openssl _openvpn3 \
-            _optirun _opustools _paccache _pacdiff _pacignore \
-            _paclist _paclog-pkglist _pacman _pacscripts _pacsearch \
-            _pacsort _pactree _parallel _patool _perf \
-            _periscope _pgsql_utils _phing _pixz _pkcon \
-            _pkgfile _play _pm2 _polybar _polybar_msg \
-            _port _protoc _pulseaudio _pygmentize _qmk \
-            _rails _ralio _rankmirrors _redis-cli _resolvectl \
-            _rfkill _rg _rkt _rmlint _rslsync \
-            _rspec _rsvm _rubocop _sbt _scala \
-            _scrub _sdd _sd_hosts_or_user_at_host _sd_machines _sd_outputmodes \
-            _sd_unit_files _setcap _setup.py _sfdx _shellcheck \
-            _showoff _srm _stack _starship _subl \
+            _bspc _bundle _busctl _bwrap _cap \
+            _cargo _cask _ccache _cf _checkupdates \
+            _choc _chromium _cmake _code _coffee \
+            _conan _concourse _console _coredumpctl _cppcheck \
+            _curl _dad _dget _dhcpcd _diana \
+            _direnv _docpad _downgrade _drush _ecdsautil \
+            _emulator _envdir _exa _exportfs _fab \
+            _fail2ban-client _fd _ffind _firewalld _fleetctl \
+            _flutter _fvm _fwupdmgr _gas _ghc \
+            _gist _git-flow _git-pulls _git-revise _git-wtf \
+            _glances _golang _google _gpgconf _gtk-launch \
+            _helix _hello _hledger _homestead _hostnamectl \
+            _httpie _ibus _include-what-you-use _inxi _jmeter \
+            _jmeter-plugins _jonas _journalctl _jrnl _kak \
+            _kernel-install _kitchen _kitty _knife _language_codes \
+            _libinput _lilypond _localectl _loginctl _lunchy \
+            _machinectl _mc _middleman _mina _mix \
+            _mkinitcpio _mpv _mssh _mussh _mvn \
+            _nano _nanoc _netctl _networkctl _nftables \
+            _ngrok _nnn _node _nvm _onefetch \
+            _oomctl _openssl _openvpn3 _optirun _paccache \
+            _pacdiff _pacignore _paclist _paclog-pkglist _pacman \
+            _pacscripts _pacsearch _pacsort _pactree _parallel \
+            _patool _periscope _pgsql_utils _phing _pixz \
+            _pkcon _pkgfile _play _pm2 _polybar \
+            _polybar_msg _port _protoc _pulseaudio _pygmentize \
+            _qmk _rails _ralio _rankmirrors _redis-cli \
+            _resolvectl _rfkill _rg _rkt _rmlint \
+            _rslsync _rspec _rsvm _rubocop _sbt \
+            _scala _scrub _sdd _sd_hosts_or_user_at_host _sd_machines \
+            _sd_outputmodes _sd_unit_files _setcap _setup.py _sfdx \
+            _shellcheck _showoff _srm _stack _starship \
             _subliminal _supervisorctl _svm _systemctl _systemd \
             _systemd-analyze _systemd-delta _systemd-inhibit _systemd-nspawn _systemd-path \
             _systemd-run _systemd-tmpfiles _teamocil _the_silver_searcher _thor \
-            _timedatectl _tmuxinator _tmuxp _tox _trash \
-            _trash-empty _trash-list _trash-put _trash-restore _udevadm \
+            _timedatectl _tmuxinator _tmuxp _tox _udevadm \
             _udisksctl _ufw _updpkgsums _virtualbox _vnstat \
-            _wemux _wg-quick _xinput _xsel _yadm \
+            _wemux _wezterm _wg-quick _xsel _yadm \
             _yaourt _yarn _yay _zcash-cli _zoxide \
             _cdr _all_labels _all_matches _alternative _approximate \
             _arg_compile _arguments _bash_completions _cache_invalid _call_function \

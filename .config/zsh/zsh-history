@@ -1,1601 +1,3 @@
-lll
-ran
-sudo ranger
-sudo -i -u postgres
-ll
-ranger
-sudo -i -u postgres
-lll
-sudo -i -u postgres
-ll
-sudo -i -u postgres\
-
-exit
-ranger
-exit
-www/directus_supabase
-ll
-ranger
-ranger
-pgloader
-fy
-pgloader --version
-cd ..
-directus_examples
-ll
-directus
-ll
-createdb --help
-ll
-createdb supa\
-
-createdb newdb
-createdb
-ll
-pgloader ./data.db postgresql:///db.uetxbktzzkweqxymromu.supabase.co
-postgres
-sudo -i -u postgres\
-
-sudo -i -u postgres\
-
-lll
-ls
-ld
-ll
-sudo -i -u postgres
-lll
-sudo -i -u postgres
-ll
-ran
-cd /var/lib/postgres
-ll
-ll data
-sudo ll data
-cd data
-sudo cd data
-ll
-sudo systemctl status postgresql\
-
-cd /usr
-ll
-bin/
-ll
-postgres/
-ld
-ll
-ran
-cd /usr/lib
-ll
-sudo systemctl status postgresql\
-
-sudo systemctl stop postgresql\
-
-sudo systemctl status postgresql\
-
-cd ..
-ll
-bin/
-ll
-ranger
-cd ~/www
-ran
-sudo systemctl status postgresql\
-
-sudo systemctl start postgresql\
-
-sudo systemctl status postgresql\
-
-sudo -i -u postgres
-cd ~/Downloads/_SAVE/ThemeForest/April/themeforest-r0ZJOXaY-nafie-html-portfolio-template-file-and-license/themeforest-31531920-nafie-html-portfolio-template
-ll
-nafie
-ll
-ranger
-ll
-source ~/.config/ranger/rc.conf
-ranger
-live-server .
-code .
-exit
-exit
-ll
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-ll
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-
-ll
-ll
-
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-t
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-
-exit
-eit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-www/test
-ll
-tree
-ll
-ran
-images/
-www/test
-ll
-exit
-www/test
-exit
-www/test
-exit
-www/test
-source ~/.config/zsh/.zshrc
-source ~/.config/zsh/.zshrc
-exit
-www/test
-source ~/.config/zsh/.zshrc
-exit
-source ~/.config/zsh/.zshrc
-www/test
-exit
-source ~/.config/zsh/.zshrc
-www/test
-exit
-source ~/.config/zsh/.zshrc
-www/test
-exit
-source ~/.config/zsh/.zshrc
-www/test
-fz
-cd ..
-ll
-directus_examples
-vue/README.md 
-fz
-fv
-exit
-source ~/.config/zsh/.zshrc
-www/test
-fz
-fz
-exit
-source ~/.config/zsh/.zshrc
-www/test
-fz
-exit
-source ~/.config/zsh/.zshrc
-www/test
-fz
-styles/styles.css 
-fv
-exit
-www/
-ll
-test1
-ll
-lll
-cd ..
-test/
-ll
-ll
-index.html 
-ll
-rang
-ran
-ll
-mkdir dist
-cp -r html-form dist
-ran
-source ~/.config/zsh/.zshrc
-source ~/.config/zsh/.zshrc
-ll
-source ~/.config/zsh/.zshrc
-source ~/.config/zsh/.zshrc
-html-form/style.css 
-source ~/.config/zsh/.zshrc
-source ~/.config/zsh/.zshrc
-source ~/.config/zsh/.zshrc
-source ~/.config/zsh/.zshrc
-source ~/.config/zsh/.zshrc
-source ~/.config/zsh/.zshrc
-source ~/.config/zsh/.zshrc
-source ~/.config/zsh/.zshrc
-source ~/.config/zsh/.zshrc
-source ~/.config/zsh/.zshrc
-source ~/.config/zsh/.zshrc
-source ~/.config/zsh/.zshrc
-ran
-source ~/.config/zsh/.zshrc
-source ~/.config/zsh/.zshrc
-source ~/.config/zsh/.zshrc
-source ~/.config/zsh/.zshrc
-source ~/.config/zsh/.zshrc
-source ~/.config/zsh/.zshrc
-fy
-source ~/.config/zsh/zsh-aliases
-fy
-source ~/.config/zsh/zsh-aliases
-source ~/.config/zsh/.zshrc
-fy
-source ~/.config/zsh/.zshrc
-source ~/.config/zsh/.zshrc
-source ~/.config/zsh/.zshrc
-fz
-exit
-www/test
-ll
-code **
-cd ..
-directus_examples
-exit
-www/directus_examples
-exit
-www/directus_examples
-ll
-vue2
-ll
-source ~/.config/zsh/.zshrc
-exit
-ranger
-exit
-source ~/.config/zsh/.zshrc
-exit
-www
-ll
-lll
-directus_examples
-ll
-lll
-yay
-lll
-directus
-ll
-npm run dev
-npm rnu start
-npm run start
-ll
-npx directus schema snapshot ./snapshot.yaml
-lll
-code snapshot.yaml
-code package.json
-mkdir snapshots
-npm run start
-npm run start
-lll
-ll snapshots
-code data.sql
-ranger
-npm run start
-sqlite3 data.db
-ll
-sqlite3 data.db
-lll
-npm run start
-www/directus_examples/vue
-npm run dev
-www/directus_examples/vue2
-npm run dev
-www/directus_examples/vue2
-gs
-code .
-ll
-tree
-tree -I node_modules
-cd ..
-ll
-tree
-tree -I node_modules
-tree -I 'node_modules|.git'
-ll
-tree -I node_modules
-tree /vue2 -I node_modules
-tree vue2 -I node_modules
-vue2/
-tree
-tree -I node_modules
-tree *vue -I node_modules
-tree -f -I node_modules -P *.vue
-tree -f -I node_modules -P *.vue .
-tree -f -I "bin|unitTest" -P "*.[ch]|*.[ch]pp." your_dir/
-tree -f -I "bin|unitTest" -P "*.[ch]|*.[ch]pp." 
-tree -f -I "node_modules" -P "*.[ch]|*.[ch]pp." 
-tree -f -I "node_modules" -P "*.vue" 
-tree -f -I "node_modules" -P *.vue
-tree -f -I "node_modules" -P "*.vue" 
-vim ~/.config/zsh/.zshrc
-vim ~/.config/zsh/.zshrc
-gs
-yadm
-yadm log
-yadm logg
-yadm logg
-yadm status
-ll
-sqlite3
-ranger
-neos
-neos
-sudo systemctl status postgresql
-fy
-yay pgadmin
-kill pgadmin
-htop
-htop
-pgadmin4
-ranger
-cd /etc
-lll
-cd ~/www/directus_examples/vue2
-pgadmin4
-ranger
-ranger
-sudo pacman -R pgadmin4
-pgadmin4
-gs
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-exit
-www/directus_examples/
-ll
-directus/
-ll
-sqlite3 data.db
-lll
-code data.sql
-sqlite3 data.db
-ll
-code data_structure.sql
-cd ..
-cd ..
-ll
-directus_supabase
-ll
-fz
-cd ..
-directus_examples/directus
-ll
-lll
-code data.sql
-code data_structure.sql
-ll
-cp data.db data_BACKUP.db
-lll
-ran
-gs
-cd ..
-cd ..
-directus_supabase
-ll
-ranger
-ll
-cat package.json
-npm run start
-ranger
-npm run start
-lll
-npx directus schema apply ./snapshot.yaml
-npx directus schema apply ./snapshot.yaml
-npx directus schema apply --yes ./snapshot.yaml
-npx directus schema apply --dry-run ./snapshot.yaml
-npx directus schema apply --dryrun ./snapshot.yaml
-ranger
-lll
-code snapshot.yaml
-npx directusctl scheme
-npx directusctl schema
-ls
-ll
-npx directus schema apply ./snapshot.yaml
-ranger
-npm run start
-ranger
-exit
-exit
--|-
-exit
-
-ll
-exit
-ll
-lll
-ls
-ld
-www/
-ll
-ll
-ll lolcat
-lolcat
-lolcat | ll
-lolcat test
-vim ~/.config/zsh/zsh-aliases
-lol
-lol
-lol
-vim ~/.config/zsh/zsh-aliases
-lol
-test
-test
-ll
-test/
-ran
-exit
-www/test1
-ran
-exit
-www
-ll
-cp .editorconfig test1
-test1
-ll
-exit
-exit
-vim
-exit
-www/
-vim .
-exit
-vim
-exit
-npm i -g neovim
-exit
-ll
-source init.lua
-exit
-www/test1
-ll
-vim .
-vim
-vim .
-vim .
-vim .
-cd ..
-ll
-test1/
-ll
-vim .
-npm install -g @tailwindcss/language-server
-tailwindcss-language-server --stdio
-tailwindcss-language-server --version
-vim
-vim .
-exit
-vim
-exit
-npx vite --port=4000
-npx vite --port=4000
-git diff
-git add vite.config.js && git commit -m'vite.config.js // add plugin: reactivityTransform.'
-git add readme.md && git commit -m'readme.md // add note: VitePWA Plugin.'
-npx vite --port=4000
-git add package.json yarn.lock && git commit -m'package.json // install @iconify/json and unplugin-vue-components.'
-git add vite.config.js && git commit -m'vite.config.js // add unplugin-icons and unplugin-vue-components.'
-git add src/components/Footer.vue && git commit -m'Footer.vue // make it my own.'
-git add src/components/Pill.vue && git commit -m'Pill.vue // change colors.'
-git add src/styles/app.css && git commit -m'app.css // add more Google Fonts.'
-git add src/styles/index.css && git commit -m'index.css // add @layer base styles.'
-git add index.html && git commit -m'index.html // remove font awesome.'
-git add src/views/About.vue src/views/Home.vue && git commit -m'Aboute.vue Home.vue // made it my own.'
-npx vite --port=4000
-www/vue-tailwind__yarn
-code .
-ll
-cp ~/www/.editorconfig .
-gs
-git add .editorconfig && git commit -m'++ .editorconfig'
-gs
-gs
-gs
-git add index.html public/favicon.ico public/favicon.svg && git commit -m'Favicons update to JJS.'
-matrix
-git statuss
-git add -p
-git statuss
-npm i unplug-icons
-yarn i unplugin-icons
-yarn add unplugin-icons
-gs
-git add package.json && git commit -m'package.json // install unplugin-icons.' 
-gs
-yarn add -D @iconify/json
-yarn add -D unplugin-vue-components\
-
-gs
-git add readme.md && git commit -m'readme.md // notes.'
-git add README.md && git commit -m'README.md // notes.\
-
-git add README.md && git commit -m'README.md // notes.'\
-
-mv READ
-mv README.md readme-o.md && touch readme.md
-gs
-gs
-git add README.md readme.md readme-o.md && git commit -m'readme.md // notes.'
-gs
-exit
-www/
-lll
-degit or-abdillh/vue-tailwind vue-tailwind
-ll
-lll
-vue-tailwind
-ll
-git init
-git addd -m'First Commit'
-ran
-yarn i
-yarn install
-cd ..
-mv vue-tailwind vue-tailwind__yarn
-lll
-vue-tailwind__yarn
-gs
-git add yarn.lock && git commit -m'yarn.lock // installed.'
-bat package.json
-yarn dev
-git-stats --global-history
-git-stats --global-activity
-exit
-www/
-degit appwrite/demos-for-vue appwrite-demos-for-vue
-lll
-appwrite-demos-for-vue
-ll
-ranger
-exit
-npm i @vueuse/core\
-
-git add articles.json && git commit -m'articles.json // gonna play with mock data exported from local Directus.'
-git add readme.md && git commit -m'readme.md // add notes.'
-git add src/App.vue && git commit -m'App.vue // remove counter.'
-git add src/routes.js && git commit -m'routes.js // replace restaurants page with api page.'
-git add src/components/Footer.vue && git commit -m'Footer.vue // add year script.'
-git add src/components/Navigation.vue && git commit -m'Navigation.vue // remove tailwind styles and made scoped classes.'
-git add src/views/About.vue && git commit -m'About.vue // edit text, remove navigation.'
-git add src/views/API.vue && git commit -m'API.vue // rename Restaurants.vue.'
-git add src/views/Restaurants.vue && git commit -m'Restaurants.vue // rename Restaurants.vue.'
-git add src/views/Colors.vue && git commit -m'Colors.vue // remove navigation, add all 22 tailwind colors.'
-git add src/views/Home.vue && git commit -m'Home.vue // remove navigation.'
-git add src/views/NotFound.vue && git commit -m'NotFound.vue // add tailwind tooltip hover.'
-npm install unplugin-icons
-npm install -D @iconify/json unplugin-vue-components
-npm uninstall @heroicons/vue
-git add package.json package-lock.json && git commit -m'package.json // remove heroicons, add unplugin-icons, iconify/json, and unplugin-vue-components.'
-git add src/views/API.vue && git commit -m'API.vue // remove ButtonRepo link.'
-npm i -D @vue/compiler-sfc\
-
-npm i @vueuse/head\
-
-git add index.html && git commit -m'index.html // remove unneeded meta tags.'
-git add package.json package-lock.json && git commit -m'package.json // add vueuse/head, vueuse/core, and vue/compiler-sfc.'
-git add vite.config.js && git commit -m'vite.config.js // add unplugin-icons, unplugin-vue-components.'
-git add src/App.vue && git commit -m'App.vue // remove teleport head $route.meta.title and using vueuse/head instead.'
-git add src/main.js && git commit -m'main.js // add vueuse/head.'
-git add src/routes.js && git commit -m'routes.js // remove meta.title becuase i am using vueuse/head.'
-git add src/components/ButtonRepo.vue && git commit -m'ButtonRepo.vue // add iconify icon, and remove hericon.'
-git add src/views/About.vue && git commit -m'About.vue // add vueuse/head meta data, and remove ButtonRepo heroicon.'
-git add src/views/API.vue && git commit -m'API.vue // add vueuse/head meta data, and remove ButtonRepo heroicon.'
-git add src/views/Colors.vue && git commit -m'Colors.vue // add vueuse/head meta data, and remove ButtonRepo heroicon.'
-git add src/views/Home.vue && git commit -m'Home.vue // add vueuse/head meta data, and remove ButtonRepo heroicon.'
-git add src/views/NotFound.vue && git commit -m'NotFound.vue // add vueuse/head meta data, and remove ButtonRepo heroicon.'
-git add package.json && git commit -m'package.json // update author url.'
-git add src/components/ButtonRepo.vue && git commit -m'ButtonRepo.vue // update github url.'
-git add src/views/About.vue src/views/Home.vue && git commit -m'About/Home.vue // change button colors.'
-npx vite --port=4000
-cp ~/www/.editorconfig .
-www/_github/jjaimealeman.com
-code .
-gl
-gs
-mv README.md readme.md
-gs
-git add readme.md README.md && git commit -m'readme.md // notes.'
-gs
-git addd -m'package.json // upgrade astro ^0.22.1 to ^1.0.0-beta.4, and tailwindcss ^3.0.7 to ^3.0.23\
-.'
-gl
-npm install tailwindcss@latest postcss@latest autoprefixer@latest -D
-git status
-gs
-git addd -m'package.json // install postcss and autoprefixer.'
-gs
-git add package.json package-lock.json && git commit -m'package.json // downgrade from astro 1.0.0-beta to 0.22.1 after too many errors.'
-gs
-git addd -m'postcss.config.cjs tailwind.config.cjs // spacing.'
-git remote -v
-git push
-exit
-www/
-ll
-ll
-mkdir astro
-astro/
-npm init astro -- --template framework-vue
-ll
-npm i
-npm run dev
-ll
-mkdir astro-vue1 astro-vue2
-ll
-degit timbenniks/astro-vue astro-vue2
-ll
-ll astro-vue2
-rm -rf node_modules package-lock.json
-ll
-ll
-mv public astro-vue2
-mv public astro-vue1
-mv src astro-vue1
-ll
-mv .gitignore astro-vue1
-mv .npmrc astro-vue1
-mv .stackblitzrc astro-vue1
-mv astro.config.mjs astro-vue1
-mv package.json astro-vue1
-ll
-mv README.md astro-vue1
-mv sandbox.config.json astro-vue1
-mv tsconfig.json astro-vue1
-ll
-ll astro-vue1
-ll astro-vue2
-cd astro-vue1
-npm i
-cd ..
-cd astro-vue2
-npm install
-exit
-exit
-www/astro/astro-vue2
-ll
-ranger
-ll
-cd ..
-exit
-npm i astro/latest
-npm i astro@latest
-npm i tailwindcss@latest
-www/astro/astro-vue2
-npm run dev
-bat package.json
-vim package.json
-npm run dev
-cd ..
-rm -rf astro-vue2
-ll
-astro-vue1
-ll
-code .
-gs
-git init
-git addd -m'First Commit'
-gs
-gl
-npm i -D tailwindcss@latest postcss@latest autoprefixer@latest
-touch tailwind.config.cjs
-touch postcss.config.js
-mv postcss.config.js postcss.config.cjs
-mkdir public/styles
-touch public/styles/global.css
-mv README.md readme.md
-mkdir src/layouts
-touch src/layouts/BaseLayout.astro
-mkdir src/pages/blog
-touch src/pages/blog/index.astro
-touch index.ts
-cd ..
-ll
-degit leosvelperez/leosvel.dev
-ll
-degit leosvelperez/leosvel.dev leosvel.dev
-ll
-ran
-ll
-leosvel.dev
-ll
-vim .
-cd ..
-ll
-astro-vue1
-gl
-gs
-gl
-code .
-git checkout 3f4381d
-git switch -
-git addd -m'BROKE! checkout #3f4381d.'
-git checkout 3f4381d
-code .
-code .
-npm run dev
-exit
-www/astro/astro-vue1
-npm run dev
-npm i
-npm run dev
-npm run dev
-npm run dev
-npm i
-npm run dev
-npm run dev
-npm run dev
-npm run dev
-npm run dev
-cd ..
-ll
-cd ..
-rm -rf astro
-exit
-www/_github
-lll
-vite-vue3-tailwind-starter
-gs
-ranger
-ll
-rm -rf .lighthouse
-gs
-git diff
-cd ..
-ll
-cd ..
-lll
-vue-tailwind__yarn
-gs
-git diff
-exit
-www/_github/jjaimealeman.com
-code .
-gs
-gl
-code .
-git branch
-git checkout tailwindcss
-git checkout tailwindcss2
-git checkout master
-git branch -m master main
-git branch
-git branch -D tailwindcss tailwindcss2
-git branch
-git checkout -b 01-remove-preact
-gs
-exit
-www/directus_examples/vue2
-ll
-cd ..
-cd ..
-_github/
-ll
-vite-vue3-tailwind-starter
-ll
-gs
-git diff
-code .
-neos
-gs
-gl
-gs
-ran
-code .
-npm i -g git-stats
-git-stats
-ranger
-code ~/.git-stats
-git-stats -l
-git-stats --global-activity
-git-stats --help
-git-stats
-gs
-lll
-cp ~/Downloads/articles\ 2022-04-06\ at\ 13.33.9.json .
-lll
-mv articles\ 2022-04-06\ at\ 13.33.9.json articles.json
-gs
-gs
-gs
-gl
-gs
-gl
-gs
-gl
-git push
-gl
-git branch
-git branch -D 01-add-strapi
-git branch
-bat package.json
-npm run build
-npm run serve
-git status
-gs
-gl
-git push
-npx unlighthouse --https://github.com/jjaimealeman/vite-vue3-tailwind-starter\
-
-npx unlighthouse --site https://github.com/jjaimealeman/vite-vue3-tailwind-starter
-npx unlighthouse --site https://vite-vue3-tailwind-starter.netlify.app/\
-
-exit
-ssh directus
-exit
-www/
-ll
-test
-ll
-test/
-ll
-cd ..
-test1/
-ll
-cd ..
-mkdir test3
-test3/
-degit directus/examples/tree/main/nuxt3/nuxt3-directus-blog
-ll
-degit directus/examples/tree/main/nuxt3/nuxt3-directus-blog .
-ll
-degit directus/examples/
-ll
-ds
-ld
-ls
-ll nuxt3
-rm -rf angular astro blitz directus eleventy gatsby iles LICENSE nextjs nuxtjs react README.md remix shared svelte sveltekit vue
-ll
-rm .gitignore
-ll
-nuxt3/nuxt3-directus-blog
-ll
-npm i
-ll
-bat package.json
-npm run dev
-ll
-cd ..
-ll
-mv nuxt3-directus-blog ~/www/directus_examples
-cd ..
-cd ..
-rm -rf test3/
-ll
-exit
-www/
-vim .
-exit
-www
-ll
-fz
-mkdir astro
-astro/
-ll
-touch readme.md
-code .
-git init
-git add readme.md && git commit -m'readme.md // First Commit .'
-gs
-gl
-npm init astro -- --template framework-vue
-ll
-mv README.md readme-o.md
-lll
-gs
-git addd -m'Commit pre npm install.'
-npm install
-gs
-npm run dev
-cd ..
-lll
-rm -rf astro
-lll
-_github/
-ranger
-jjaimealeman.com
-ll
-gs
-cat package.json
-npm run dev
-npm run dev
-npm run dev
-npm install @astrojs/preact
-npm run dev
-npm run dev
-npm run dev
-npm run dev
-npm run dev
-npm run dev
-npm i
-gs
-npm run dev
-npm i
-npm run dev
-npm i @astrojs/preact
-npm run dev
-npm i
-npm run dev
-npm run dev
-npm run dev
-gs
-npm run dev
-cd ..
-ll
-npx nuxi init blog-directus-nuxt3
-cd blog-directus-nuxt3
-ll
-mv README.md readme-o.md && touch readme.md
-lll
-ll
-code .
-npm install
-ll
-git init && git add . && git commit -m'My First Commit'
-gs
-gl
-npm install nuxt-directus @nuxtjs/tailwindcss
-gs
-cp ~/www/.editorconfig .
-git add .editorconfig && git commit -m'++ .editorconfig'
-gs
-git diff package.json
-git add package.json package-lock.json && git commit -m'package.json // add @nuxtjs/tailwindcss and nuxt-directus.'
-ll
-bat package.json
-npm run dev
-gs
-pwd
-pwd
-gs
-ll
-ranger
-npm run dev
-ranger
-pwd
-cp readme.md ~/www/directus_examples/nuxt3-directus-blog
-git remote -v
-cd ..
-lll
-ranger
-rm -rf blog-directus-nuxt3
-exit
-git add src/components/Navigation.vue && git commit -m'Navigation.vue // fix 1px white border.'
-git add readme.md README.md && git commit -m'readme.md // notes.'
-git add readme.md && git commit -m'readme.md // add notes.'
-git add src/views/API.vue && git commit -m'API.vue // API working, Hoppscotch help, connect to 915websites backend ðƒ¿ƒ±ƒ­.'
-npx vite --port=4000
-www/
-ll
-mkdir test2
-test2/
-vue create test2
-ll
-test2
-vim .
-exit
-www/_github/vite-vue3-tailwind-starter
-vim .
-git diff
-git add src/components/Footer.vue && git commit -m'Footer.vue // add name to footer.'
-git push
-exit
-www/_github/vite-vue3-tailwind-starter
-vim .
-gs
-git diff src/App.vue
-git diff src/App.vue
-git diff src/App.vue
-git diff src/App.vue
-git add src/App.vue && git commit -m'App.vue // move footer into main.'
-gs
-git diff src/components/Footer.vue
-git add src/components/Footer.vue && git commit -m'Footer.vue // fix border-t-2.'
-gs
-git diff src/tailwind.css
-git add src/tailwind.css && git commit -m'tailwind.css // add bg-slate-50.'
-gs
-git diff src/views/About.vue
-git diff
-git diff
-git addd -m'Remove bg-gray-50 from main div.'
-git push
-exit
-exit
-exit
-git diff
-git add index.html && git commit -m'index.html // remove Google analytics and add Cloudfare analytics.'
-git diff
-git add readme.md && git commit -m'readme.md // add notes.'
-git push
-exit
-www/_github/915website.com
-ll
-npm run build
-lll
-vim .
-cd ~/www
-node -v
-npm -v
-vue -v
-vue -V
-git -v
-git -version
-git --version
-node -v
-npm -v
-vue -V
-git --version
-yarn -v
-man git
-man node
-ranger
-cd ~/.config/zsh
-yadm status
-yadm diff .zshrc
-yadm add .zshrc && yadm commit -m'.zshrc // fix ripgrep to NOT scan node_modules or .git folders.'
-yadm status
-yadm diff zsh-aliases
-yadm add zsh-aliases && yadm commit -m'zsh-aliases // fix ripgrep to NOT scan node_modules or .git folders.'
-yadm status
-cd ..
-ranger/
-yadm statuss
-yadm diff rifle.conf
-yadm add rifle.conf && yadm commit -m'rifle.conf // fix ranger now opens HTML files in neovim instead of Firefox.'
-yadm statuss
-yadm statuss ../bspwm/bspwmrc
-yadm diff ../bspwm/bspwmrc
-yadm add ../bspwm/bspwmrc && yadm commit -m'bspwm // comment out rule for doublecmd.'
-yadm status
-yadm diff ../sxhkd/sxhkdrc
-yadm add ../sxhkd/sxhkdrc && yadm commit -m'sxhkdrc // add rofi show emoji, remove doublecmd.'
-yadm statuss
-yadm add ../nvim/ && yadm commit -m'nvim // add keybinds for TAB navigation, and TailwindCSS LSP intellisense.'
-yadm statuss
-yadm push
-nslookup 915website.com
-nslookup 915website.com
-nslookup www.915website.com
-nslookup 915website.com
-nslookup www.915website.com
-cd ..
-cd ..
-www/_github/915website.com
-lll
-git status
-git diff
-vim .
-cd ..
-cd ..
-directus_examples
-ll
-git statuss
-git addd -m'latest changes.'
-git push
-www/
-directus_examples/directus
-npm run start
-npm run start
-npm run start
-www/directus_examples/vue
-ll
-npm run dev
-neos
-neos
-
-ll
-ll
-www/directus_examples/vue2
-www/directus_examples/vue2
-npm run dev
-npm run dev
-www/directus_supabase
-cat package.json
-ll
-ranger
-npm run dev
-npm rnu start
-npm run start
-npm run start
-npm run start
-cd www/_github/wdb-get-good-with-git/
-cd ..
-cd ..
-test1
-ll
-degit or-abdillh/vue-tailwind
-ll
-ran
-ll
-ll .vscode
-ran
-ranger
-fz
-fv
-fv
-vim
-cd ..
-directus_examples
-gs
-vim
-vim ~/Downloads
-mv ~/Downloads/articles\ 2022-04-05\ at\ 14.56.41.json ~/Downloads/articles_2022-04-05_at_14.56.41.json
-vim ~/Downloads/articles_2022-04-05_at_14.56.41.json
-vim ~/Downloads/articles_2022-04-05_at_14.56.41.json
-mv ~/Downloads/articles_2022-04-05_at_14.56.41.json ~/Downloads/articles.json
-vim ~/Downloads/articles.json
-vue2/
-mv ~/Downloads/articles\ 2022-04-04\ at\ 10.46.36.json .
-ll
-mv ~/Downloads/articles.json .
-ll
-rm articles\ 2022-04-04\ at\ 10.46.36.json
-neos
-neos
-ranger
-cd ..
-ll
-directus/uploads
-ll
-ll *a548d*
-ll 4484*
-ll 4485*
-ran
-ranger
-gs
-cd ..
-ll
-cd ..
-ll
-vue2/
-vim .
-ll
-cd ..
-ll
-pwd
-lll
-lll
-nuxt3-directus-blog
-ll
-npm run dev
-ranger
-npm run dev
-gs
-pwd
-pwd
-gs
-ll
-ranger
-npm run dev
-ranger
-gs
-ll
-pwd
-gs
-ll
-cd ..
-gs
-ranger
-ll
-nuxt3-directus-blog
-npm run dev
-pwd
-npm run dev
-npx nuxi info
-git statuss
-git remote add origin https://github.com/jjaimealeman/nuxt3-directus-blog.git
-cd ..
-ll
-code .gitignore
-git add .gitignore && git commit -m'.gitignore // add nuxt3-directus-blog.'
-nuxt3-directus-blog
-git branch -M main
-git statuss
-git remote -v
-git logg
-git statuss
-git addd -m'first commit nuxt3-directus-blog.'
-git push -u origin main
-git statuss
-cd ..
-git remote -v
-git add .gitignore && git commit -m'.gitignore // remove nuxt3-directus-blog.'
-git push
-git rm --cache .gitignore
-git statuss
-git add .gitignore && git commit -m'.gitignore // add nuxt3-directus-blog.'
-git statuss
-git remote -v
-git add nuxt3-directus-blog/ && git commit -m'Add nuxt3-directus-blog folder.'
-git push
-gl
-www/_github/blog-directus-nuxt3
-gs
-gl
-ll
-mkdir -p src/services
-touch src/services/directus.js
-mkdir src/utils
-touch src/utils/get-asset-url.js
-ranger
-cp ~/www/directus_supabase/.env .
-ll
-lll
-ssh directus
-ranger
-mv ~/Downloads/blog\ 20220408-15526.json ./blog.json
-lll
-cd ..
-ll
-vite-vue3-tailwind-starter
-code .
-ssh directus
-ll
-mv ~/Downloads/blog\ 20220408-2263.json src/views/blog.json
-ssh directus
-ssh directus
-gs
-gs
-gs
-gl
-git push
-ssh directus
-gs
-git add articles.json && git commit -m'articles.json // didnt need it no more.'
-git add src/views/Colors.vue && git commit -m'Colors.vue // add bg-white to number scale.'
-pwd
-cd ..
-cd ..
-directus_examples/nuxt3-directus-blog
-npm run serve
-npm run dev
-npm run dev
-code .
-ssh directus
-ssh directus
-matrix
-ssh
-ssh directus
-ssh directus
-code --version
-nslookup -type=ns 915website.com
-npm run dev
-pacman -Syyu
-sudo pacman -Syyu
-neot
-reboot
-npx vite --port=4000
-matrix
-www/directus_examples
-gs
-gl
-vue2/
-npm run dev
-cd ..
-nuxt3-directus-blog
-npm run dev
-npm run dev
-www/directus_examples
-ll
-directus
-npm run serve
-bat package.json
-npm run start
-nslookup -type=ns 915website.com
-matrix
-www/directus_examples/nuxt3-directus-blog
-code .
-gs
-git fetch
-git pull
-gs
-npm run dev
-git statuss
-npm run dev
-gs
-git add readme.md && git commit -m'readme.md // add notes.'
-git add index.html && git commit -m'index.html // add Plausible Analytics snippet. $6/month.'
-git push
-obsidian --version
-exit
-www/
-degit mdbootstrap/Tailwind-Elements/ talwind-elements
-lll
-talwind-elements
-ll
-mv README.md readme-o.md && touch readme.md
-vim readme.md
-ran
-cd ..
-lll
-mv talwind-elements tailwind-elements
-lll
-exit
-www/_github/915website.com
-gl
-vim .
-gs
-gid diff
-git diff
-git add index.html && git commit -m'index.html // remove Cloudfare analytics. Still not using GA.'
-git push
-vim readme.md
-code .
-www/DEMOS/boozytacos/wget
-ll
-npx vite --port=4000
-ssh root@157.245.220.251
-www/_github/alemansandbox.com
-ll
-bat package.json
-ranger
-gs
-npx vite --port=4000
-npx vite --port=4000
-www
-fz
-ll
-touch gsap.js
-www/
-lll
-test_svg_animation
-touch jsconfig.json
-n
-matrix
-gs
-sudo pacman -Syyu
-sudo pacman -Syyu && reboot
-www/DEMOS/boozytacos
-gs
-ll
-mkdir wget
-wget/
-ll
-wget --recursive --no-clobber --page-requisites --html-extension --convert-links --restrict-file-names=windows --domains boozytacos.com --no-parent www.boozytacos.com\
-
-ll
-ll
-www.boozytacos.com
-rangre
-ran
-cd ..
-cd ..
-ll
-chmod a+x wget.sh
-wget/www.boozytacos.com
-ll
-live-server .
-ll
-cd ..
-cd ..
-ll
-ll
-git add .gitignore && git commit -m'.gitignore // ignore wget folder.'
-ll
-gs
-git add wget.sh && git commit -m'wget.sh // wget web scraper.'
-git branch -b 01-redesign
-git checkout -b 01-redesign
-gs
-git diff
-git add readme.md && git commit -m'readme.md // add notes.'
-gs
-code .
-npm i
-rm -rf node_modules package-lock.json
-gs
-npm i
-www/
-ll
-ranger
-mkdir test_svg_animation
-test_svg_animation
-touch index.html
-code .
-live-server .
-live-server index.html
-live-server index.html
-npx http-server .
-live-server index.html
-matrix
-www
-mkdir DEMOS
-DEMOS/
-degit jjaimealeman/vite-vue3-tailwind-starter boozytacos
-ll
-boozytacos
-ll
-code .
-whois boozytacos.com/
-whois boozytacos.com
-nslookup -type=ns boozytacos.com
-nslookup -type=ns boozytacos.com > nslookup.txt
-lll
-whois boozytacos.com > whois.txt
-lll
-npm install
-git init && git add . && git commit -m'My First Commit'
-gs
-npm run dev
-npm run dev
-npm run dev
-npm run dev
-npm run dev
-www/
-lll
-mv test_svg_animation gsap
-gsap
-ll
-live-server index.html
-www/gsap
-code .
-mkdir test more
-mv test test/index.html
-mv test.html test/index.html
-mv more.html more/index.html
-exit
-www/_github/my-static-boilerplate2
-gs
-vim .
-gs
-git add more/ test/ && git commit -m'Add /more and /test dolfers.'
-git add more.html test.html && git commit -m'Move more.html and test.html to their own folders.'
-gs
-git add index.html && git commit -m'index.html // update navigation.'
-gs
-git addd -m'vite.config.js // update navigation.'
-git push
-ranger
-gs
-git add readme.md && git commit -m'readme.md // add notes.'
-git push
-vim readme.md
-git add readme.md && git commit -m'readme.md // add notes.' && git push
-timtutor
-vimtutor
-www/_github/my-static-boilerplate
-git statuss
-ranger
-cd ..
-ll
-git clone https://github.com/jjaimealeman/my-static-boilerplate2.git
-lll
-my-static-boilerplate
-cd ..
-my-static-boilerplate2
-ranger
-npm run dev
-npm install
-npm run dev
-npm install tailwindcss@latest autoprefixer@latest -D
-npm install -D autoprefixer@latest prettier-plugin-tailwindcss@latest tailwindcss@latest unplugin-vue-components@latest vite@latest 
-npm install -D @iconify/json@latest @tailwindcss/aspect-ratio@latest @tailwindcss/forms@latest @tailwindcss/line-clamp@latest @tailwindcss/typography@latest @types/tailwindcss@latest @vitejs/plugin-vue@latest @vue/compiler-sfc@latest\
-
-npm install @vueuse/core@latest @vueuse/head@latest axios@latest unplugin-icons@latest vue@latest vue-router@latest\
-
-www/tailwind-elements
-ranger
-www/
-ll
-talwind-elements
-tailwind-elements
-ll
-ranger
-git
-git gs
-git status
-git init && git add . && git commit -m'First Commit - PRE NPM INSTALL.'
-npm install
-gs
-npm run start
-exit
-www/tails_app_tailwindcss
-ranger
-www
-ll
-learn-alpine
-ll
-npm run dev
-ranger
-cd ..
-mv learn-alpine alpinejs_learn
-ll
-appwrite-demos-for-vue
-ll
-ranger
-cd ..
-rm -rf appwrite-demos-for-vue
-ll
-ll scss
-ll sanity
-ll strapi
-rm -rf sanity strapi
-ll
-supabase_vue3
-ll
-ranger
-npm run dev
-ranger
-npm run dev
-ll
-ranger
-cd ..
-ll
-tails_app_tailwindcss
-ll
-ranger
-npm run dev --host
-cd ..
-mv tails_app_tailwindcss tailwind_devdojo_tails
-ll
-ll test
-ranger
-live-server test/index.html
-www/vue-tailwind__yarn
-vim .
-www/test/
-ll
 gs
 bat .gitignore
 vim .
@@ -10126,3 +8528,1596 @@ gl
 code .
 npm run go
 n
+z content
+pwd
+z jja
+code .
+npm run go
+npm run go
+time npm run go
+df
+dh
+df
+free
+gs
+git add src/components/widgets/Header.astro && git commit -m'Fix logo title for Lighthouse.'
+gs
+git addd -m'Add animate-rainbox class in Hero.astro.'
+git push
+vim .
+vim
+gs
+ll
+ll
+rm lighthouse-score.png
+gs
+gs
+ll
+ll | lolcat
+z jja
+npm run dev
+z content
+nnn
+fy
+nnn
+source ~/.config/zsh/zsh-aliases
+source ~/.config/zsh/zsh-aliases
+n
+n
+r
+n
+x zsh
+z zsh
+yadm
+yadm init
+yadm remote -v
+r
+ll
+yadm add .zshrc zsh-aliases zsh-functions 
+yadm status
+yadm push
+yadm remote add origin https://github.com/jjaimealeman/dotfiles-endeavour-os/
+yadm push
+yadm push --set-upstream origin main
+yadm status
+yadm commit -m'add .zshrc zsh-aliases zsh-functions.'
+yadm push --set-upstream origin main
+yadm remote -v
+yadm clone https://github.com/jjaimealeman/dotfiles-endeavour-os/
+yadm clone -f https://github.com/jjaimealeman/dotfiles-endeavour-os/
+yadm status
+yadm list
+yadm push
+ll
+cd ..
+yadm add zsh/ && yadm commit -m/add zsh'\
+
+yadm add zsh/ && yadm commit -m'add zsh'
+yadm status
+yadm push
+ll
+yadm add bpytop/ && yadm commit -m'add bpytop'
+yadm add bspwm/ && yadm commit -m'add bspwm'
+yadm push
+ll
+r
+yadm add kitty && yadm commit -m'add kitty'
+r
+yadm add nvim/ && yadm commit -m'add nvim'
+r
+yadm add polybar/ && yadm commit -m'add polybar'
+yadm add ranger/ && yadm commit -m'add ranger'
+yadm add rofi/ && yadm commit -m'add rofi'
+yadm add sxhkd/ && yadm commit -m'add sxhkd'
+ll
+yadm push
+vim
+vim ~/.config/nvim/init.lua
+vim
+vim ~/.config/nvim/init.lua
+vim
+vim
+vim .
+nvim/
+gs
+gd init.lua
+gl
+git remote -v
+vim ~/.config/nvim/init.lua
+vim
+gs
+code .
+git pull
+ll
+git pull -f
+git pull
+git pull
+vim .
+gs
+git pull
+git fetch
+vim
+nvim
+nvim
+vim
+gs
+gs
+gs
+nvim
+r
+neos
+neos
+z test
+code .
+r
+z jja
+git log
+r github
+z github
+alemansandbox.com
+gs
+gd
+gl
+r
+code .
+ll
+cd..
+cd ..
+ll
+lll
+ll
+chmod 644 alemansandbox.com
+alemansandbox.com
+ll
+alemansandbox.com
+cd alemansandbox.com
+chmod 755 alemansandbox.com
+alemansandbox.com
+gs
+ga
+gs
+git remote 0v
+git remote -v
+git push
+r
+gd
+code .
+gs
+gl
+git push
+neo
+tlp
+fy
+z nvim
+r
+matrix
+neos
+matrix
+nnn
+r
+\:q
+r
+r
+vim ~/.config/zsh/.zshrc
+source ~/.config/zsh/zsh-aliases
+vim readme.md
+vim readme.md
+ttyper
+vim readme.md
+vim readme.md
+cli-typer
+reboot
+ll
+sudo chmod 755 typespeed.score
+ll
+typespeed
+cd ..
+ll
+games/
+ll
+sudo rm typespeed.score
+ll
+cd ~/
+ttyper
+asciinema 
+asciinema rec
+ttyper
+wpm
+wpm
+htop
+z jja
+code .
+r
+mv ~/Downloads/darcula_solid.json ~/.fleet/themes/
+r
+whereis firefox-developer-edition
+r
+gs
+r
+git log
+gl
+gs
+r
+gs
+gl
+gs
+gs
+gl
+gs
+gd
+r
+neos
+neos
+neos
+neos
+neos
+neos
+speedtest
+z down
+lll
+sha256sum jetbrains-toolbox-1.26.2.13244.tar.gz
+jetbrains-toolbox-1.26.2.13244
+ll
+jetbrains-toolbox-1.26.2.13244
+ll
+chmod +x jetbrains-toolbox
+ll
+z jja
+gs
+npm run dev
+z jja
+neovide 
+neovide
+nnn
+nnn
+yay -S ttyper
+ttyper
+fy
+vim ~/.config/zsh/.zshrc
+vim ~/readme.md
+wpm
+wpm
+fy
+gtypist
+gtypist
+gtypist
+gtypist
+gtypist
+yay -R gtypist
+npm install -g balzss/cli-typer
+cli-typer
+cli-typer
+cli-typer -s
+cli-typer -i
+cli-typer
+cli-typer
+fy
+typespeed
+typespeed
+r
+fy
+fy
+asciinema rec
+fy
+asciinema rec
+btm
+z down
+lll
+vim CanvasComponent.vue
+vim ~/.config/bspwm/bspwmrc
+vim ~/.config/sxhkd/sxhkdrc
+z jja
+npx unlighthouse --site https://jjaimealeman.com
+code .
+vim .
+vim 
+vim .
+gs
+gs
+gs
+git checkout -b new-layout
+htop
+npm run go
+vim ~/.config/zsh/zsh-aliases
+picom
+neos
+neos
+speedtest
+matrix
+matrix
+npm install -g puppeteer
+z jja
+bspc wm -r
+npm run dev
+gs
+gd
+code .
+git add settings.json && git commit -m'settings.json - organizing a bit.'
+git push
+code .
+ll
+r
+r
+code --list-extensions > vs_code_extensions_list.txt
+./backup.sh
+vim ~/.config/zsh/.zshrc
+z fly
+www/directus-fli-io
+npm run start
+npm install
+npm run start
+ll
+r
+ll
+mkdir test
+test/
+npx directus init
+r
+cd ..
+npm run start
+ll
+bat .env
+npm run start
+npm run start
+npm run start
+npm run start
+npm run start
+npm run start
+npm run start
+npm run deploy
+npm run deploy
+npm run deploy
+ll
+rm -rf .git fly.toml index.html readme.md
+degit freekrai/directus-fly .
+touch .env
+z jja
+code .
+z jja
+npm run dev
+vim ~/.config/zsh/zsh-aliases
+greenclipk
+yay
+reboot
+www
+ll
+mkdir directus_fly.io
+lll
+directus_fly.io
+curl -L https://fly.io/install.sh | sh
+source ~/.config/zsh/.zshrc
+flyctl auth singup
+flyctl signup
+flyctl auth singup
+flyctl auth signup
+ll
+flyctl launch --name directus_fly.io --copy-config --no-deploy
+flyctl launch --name directus_fly.io --copy-config --no-deploy
+flyctl launch --name directus_fly.io --copy-config --no-deploy
+flyctl launch --name directus_fly.io --copy-config --no-deploy
+ll
+flyctl launch --name directus-fly.io --copy-config --no-deploy
+flyctl launch --name directus-fly.io --copy-config --no-deploy
+flyctl launch --name directus-fly-io --copy-config --no-deploy
+ll
+bat fly.toml
+cd ..
+mv directus_fly.io directus-fli-io
+lll
+directus-fli-io
+ll
+flyctl auth token
+code .
+flyctl secrets set KEY=$(openssl rand -hex 32)
+flyctl secrets set SECRET=$(openssl rand -hex 32)
+ll
+flyctl secrets set ADMIN_EMAIL=jjaimealeman@gmail.com\
+
+flyctl secrets set ADMIN_PASSWORD=pDPzicj7T9f7SN\
+
+flyctl secrets set PUBLIC_URL=https://directus-fly-io.fly.dev\
+
+flyctl revions list .
+flyctl regions list .
+flyctl volumes create data --region dfw --size 1\
+
+ll
+git init && touch readme.md && git add . && git commit -m'First Commit.'
+gs
+mv index..html index.html
+gs
+ga
+gs
+gl
+git push
+git remote -v
+git remote add origin https://github.com/jjaimealeman/directus-fly-io.git\
+
+git push -u origin main\
+
+flyctl logs
+flyctl ips
+flyctl ips allocate-v4
+flyctl ips allocate-v6
+flyctl ips list
+flyctl deploy
+gs
+node --version && npm --version
+z nuxt
+pwd
+code .
+cd ..
+cd ..
+ll
+supabase_vue3
+ll
+code .
+npx vite --port=4000
+r
+z my-we
+pwd
+neos
+matrix
+bat package.json
+ll
+my-website
+ll
+bat package.json
+gs
+gd
+npm run dev
+r
+code .
+npm run dev
+r
+neos
+yay -S figma-linux
+yay -S figma-linux
+whereis figma-linux
+r
+vim readme.md
+z jja
+code .
+code .
+vim readme.md
+z directus-starter
+gs
+ll
+starter
+gs
+ll
+bat .gitignore
+git init && touch readme.md && git add . && git commit -m'First Commit.'
+gs
+ll
+npm install -D tailwindcss@latest
+gs
+gs
+gl
+www
+lll
+vueye
+ll
+my-app
+code .
+matrix
+r
+r
+ll
+blog/
+ll
+code .
+npm runn dev
+npm run dev
+r
+code .
+npm run dev
+bat package.json 
+r
+code . && npm run dev
+cd ..
+cd ..
+mkdir nuxt3-directus-starter
+nuxt3-directus-starter
+degit bryantgillespie/nuxt3-directus-starter starter
+touch readme.md
+vim readme.md
+starter/
+ll
+yarn install
+code . && npm run dev
+npm run dev
+ll
+z jja
+screenfetch
+figma-linux
+pacman-conf
+r
+ldd --version
+sudo rm -rf /opt/figma-linux/libm.so.6
+htop
+r
+r
+matrix
+yay
+z test
+ll
+cd ..
+mkdir test2
+test2/
+ll
+git clone https://github.com/kararAcode/interactive-scene.git
+ll
+npm install
+ll
+rm package-lock.json
+interactive-scene
+npm install
+ll
+r
+node app.js
+r
+npm run start
+reboot
+r
+z github
+ll
+www/
+_github
+ll
+git clone https://github.com/jjaimealeman/vitailse
+vitailse
+git remote -v
+git fetch
+gs
+r
+matrix
+matrix
+matrix
+npx vite --port=4000
+npx vite --port=4000
+z jja
+ll
+.config
+ll
+wezterm
+cd ..
+whereis wezterm
+vim .wezterm.lua
+vim ~/.config/sxhkd/sxhkdrc
+vim
+vim readme.md
+vim readme.md
+yay
+yay
+$XDG_CONFIG_HOME
+fy
+matrix
+matrix
+vim
+nvim
+yay
+yay
+r
+z jja
+gs
+gl
+vim
+vim
+vim ~/.config/nvim/init.lua
+vim .wezterm.lua
+vim .wezterm.lua
+vim ~/.config/nvim/init.lua
+xkill
+vim .wezterm.lua
+neos
+vim ~/.config/nvim/init.lua
+vim ~/.config/nvim/init.lua
+z jja
+npm run dev
+z jja
+git status
+gs
+gd
+vim .
+vim .
+vim .
+npx vite --port=4000
+vim .wezterm.lua
+vim .wezterm.lua
+z test
+pwd
+cd ..
+mkdir tailwinduikit
+tailwinduikit
+git clone https://github.com/AlphaSquadTech/tuk-basic-starter.git
+ll
+tuk-basic-starter
+r
+npm install
+code .
+npm start
+npx live-server public/index.html
+cd ..
+git clone https://github.com/AlphaSquadTech/rollup-starter-with-tailwind rollup-starter-with-tailwind
+rollup-starter-with-tailwind
+npm install
+code .
+npm run dev
+git add package.json && git commit -m'UPDATE package.json nuxt3 to 3.0.0-rc.13\
+
+git add package.json && git commit -m'UPDATE package.json nuxt3 to 3.0.0-rc.13'\
+
+git add .editorconfig && git commit -m'feat: add .editorconfig'
+git add .gitignore && git commit -m'feat: add .gitignore'
+git add readme.md readme-o.md && git commit -m'add my own readme and deleted the old one.'
+yarn update
+yarn upgrade
+yarn upgrade @iconify/json nuxt-windicss nuxt3 unplugin-icons
+yarn add --dev yarn-upgrade-all
+yarn yarn-upgrade-all
+git add package.json yarn.lock && git commit -m'UPGRADE ALL YARN PAGKAGES.'
+git addd -m'Playing with pages, icons and WindiCSS.'
+gs
+gl
+npm install nuxt3
+gl
+gs
+gl
+gs
+git add components/ && git commit -m'feat: add icon components.'
+gs
+git add public/favicon.ico public/favicon.svg public/icon-192.png public/icon-512.png static/icon-512.png && git commit -m'feat: add icons.'
+gs
+gs
+git push
+code .
+z test
+ll
+mkdir nuxt3
+nuxt3
+ll
+npx nuxi init nuxt-app
+ll
+nuxt-app
+ll
+r
+ll
+bat package.json 
+npm run dev
+npm install
+npm run dev
+npm install
+npm run dev
+git init
+git addd -m'Fresh install, first commit.'
+npm install -D tailwindcss postcss@latest autoprefixer@latest @nuxt/postcss8
+gs
+npx tailwindcss init
+gs
+npm run dev
+npm run dev
+ll
+mkdir -p assets/css
+touch assets/css/main.css
+npm run dev
+code .
+npm run dev
+npm run dev
+ll
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+n
+n latest
+node --version && npm --version
+n lts
+n 16.18
+node --version
+vim .
+gs
+gl
+gs
+pwd
+gl
+node --version
+n
+r
+source ~/.config/zsh/zsh-aliases
+n
+touch postcss.config.js
+git add components/ pages/ && git commit -m'Add components/ and pages/.'
+git add . && git commit -m'Feat add TailwindCSS, postcss, autoprefixer.'
+gs
+gl
+vim readme.md
+cd ~/
+vim readme.md
+tig
+htop
+code .
+pwd
+gs
+gs
+gs
+gl
+gitui
+fy
+tig
+node --version
+n
+z 915website.com
+gs
+r
+cd /
+cd ~/
+z user
+pwd
+ll
+gs
+gd
+npm run build
+npm npm run generate
+npm run generate
+npm run preview
+npm install -D prettier prettier-plugin-tailwindcss
+touch prettier.config.js
+z code
+pwd
+z user
+pwd
+gs
+gl
+gs
+gd
+code settings.json
+code settings.json
+gd
+git add settings.json && git commit -m'settings.json - remove scss formatter, go back to volar instead of prettier.'
+git push
+mkdir layouts
+touch layouts/default.vue
+touch pages/contact.vue
+touch layouts/another.vue
+mkdir public
+npm install vite-plugin-vue-inspector -D
+gs
+git add nuxt.config.ts package.json package-lock.json && git commit -m'ADD vite-plugin-vue-inspector.'
+gs
+npm run generate
+npm run preview
+npm run postinstall
+npm run build
+npm run generate
+npm run preview
+npm update
+npm install
+npm install
+npm install
+npm install
+npm update
+yarn update
+yarn upgrade
+yarn install
+yarn upgrade
+yarn dev
+yarn install
+yarn dev
+yarn dev
+yarn install
+yarn dev
+yarn install
+yarn dev
+node --version
+n
+node --version
+n
+node --version
+n 
+node -version
+node --version
+gs
+gs
+gl
+code .
+r
+pwd
+cp ~/www/favicon.ico ~/www/nuxt3-app/public
+cp ~/www/favicon.ico ~/www/nuxt3-app2/public
+gs
+git add public/ && git commit -m'Feat: add favicon.'
+git add pages/ && git commit -m'Feat: add pages/contact and pages/product.'
+git add layouts/ && git commit -m'Feat: add layouts.'
+gs
+nvim -version
+gs
+gl
+whois https://uaithub.com/
+n
+gl
+code .
+gs
+gl
+yarn dev
+code .
+gs
+gl
+cd..
+cd ..
+cd ..
+lll
+ll
+nuxt3-app
+ll
+yarn dev
+cd ..
+ll
+nuxt3-awesome-starter
+ll
+yarn dev
+cd ..
+rm -rf nuxt3-awesome-starter
+ll
+nuxt3-content-wind
+ll
+my-website
+ll
+npm run dev
+cd ..
+cd ..
+ll
+nuxt3-directus-starter
+ll
+starter
+ll
+yarn dev
+cd ..
+cd ..
+ll
+nuxt3-app
+gs
+ll
+yarn dev & code .
+npx browserslist@latest --update-db
+git remote -v
+gs
+gl
+yarn dev
+yarn dev
+yarn dev
+yarn install
+yarn dev
+ll
+rm -rf node_modules yarn-error.log yarn.lock
+ll
+yarn install
+neos
+yarn install
+yarn dev
+ll
+rm -rf node_modules yarn.lock
+gs
+yarn install
+ll
+rm -rf node_modules
+rm yarn.lock
+yarn install
+yarn dev
+ll
+rm -rf .nuxt .output node_modules
+rm yarn.lock
+yarn install
+yarn dev
+ll
+rm -rf node_modules
+rm yarn.lock
+gs
+yarn install
+ll
+yarn dev
+ll
+rm -rf node_modules
+rm yarn.lock
+gs
+ll
+yarn install
+yarn dev
+ll
+rm -rf .nuxt node_modules
+rm yarn.lock
+npm run install
+npm install
+npm run dev
+gs
+ll
+ll
+rm -rf .nuxt node_modules 
+rm package-lock.json
+ll
+npm install
+npm run dev
+rm package-lock.json
+ll
+rm -rf .nuxt node_modules 
+npm install
+npm run dev
+npm install
+npm run dev
+npm run dev
+npm install
+npm run dev
+npm run dev
+ll
+rm -rf .nuxt node_modules && rm package-lock.json
+npm install
+npm install
+npm run dev
+node --version && npm --version
+gs
+gd package.json
+npm run dev
+npm run dev
+npm run dev
+pwd
+pwd
+gs
+gl
+cd ..
+lll
+nuxt3-app2
+gs
+ga
+gs
+git remote -v
+gl
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+rm -rf .nuxt node_modules && rm package-lock.json
+npm install
+npm run dev
+ll
+rm -rf .nuxt .output node_modules && rm package-lock.json
+npm install
+gs
+npm run dev
+npm cache clean -force
+ll
+rm -rf .nuxt node_modules && rm package-lock.json
+npm install
+npm run dev
+npm cache clean -force
+ll
+rm -rf .nuxt node_modules package-lock.json
+rm -rf .nuxt node_modules && rm package-lock.json
+ll
+npm i
+npm run dev
+npm i
+npm i
+npm run dev
+npm i
+ll
+rm -rf .nuxt node_modules && rm package-lock.json
+gs
+git remote -v
+gs
+gl
+matrix
+reboot
+neot
+neos
+yay
+yay
+yay
+matrix
+neos
+reboot
+lol
+lol
+lol
+neo
+yay
+matrix
+neos
+neos
+neos
+\
+l
+lol
+lol
+lol
+lol
+source ~/.config/zsh/zsh-aliases
+vim ~/.config/zsh/zsh-aliases
+lol
+lol
+lol
+lol
+lol
+lol
+lol
+lol
+lol
+lol
+z nuxt
+pwd
+ll
+yarn dev & code .
+z nuxt
+gs
+yarn add --dev nuxt-icon
+z nuxt
+pwd
+gs
+yarn dev & code .
+yarn dev
+z nuxt
+yarn dev
+z app2
+code .
+greenclipk
+reboot
+yay
+z app2
+code .
+neos
+matrix
+pacman -Syu
+sudo pacman -Syu
+gs
+neos
+neos
+matrix
+touch components/ProductCard.vue
+z app2
+yaarn dev
+yarn dev
+neos
+reboot
+z jja
+gs
+gl
+vim .
+vim .
+r
+neo
+neo
+lol
+lol
+lol
+lol
+lol
+lol
+lol
+lol
+lol
+lol
+lol
+lol
+lol
+neo
+matrix
+z udemy
+gs
+gl
+z config
+pwd
+cd ..
+cd ..
+zsh/
+r
+yarn create vite
+ll
+exit
+yarn create react
+yarn create react
+pwd
+yarn create vite
+pwd
+ll
+test/
+ll
+r
+z test
+pwd
+cd ..
+cd ..
+ll
+yarn create vite
+react-test/
+ll
+r
+clear
+cd ..
+ll
+rm -rf react-test
+asciinema rec
+rm -rf rteact-test
+cd ..
+ll
+mkdir react
+react/
+pwd
+asciinema rec
+asciinema rec
+cd ..
+rm -rf react
+test/
+ll
+yarn create vite
+ll
+nuxt3/
+ll
+r
+git add nuxt.config.ts  package.json yarn.lock pages/about.vue && git commit -m'FEAT: add nuxt-icon'
+gl
+yarn generate
+touch components/ProductDetails.vue
+gs
+gl
+touch error.vue
+z test
+ll
+mkdir npm
+npm/
+npm init --yes
+ll
+r
+rm package.json
+ll
+npm init -y
+gs
+code .
+vim
+ll
+vim README.md
+vim
+gl
+gs
+gl
+git remote -v
+gp
+git push
+gh auth refresh
+code ~/.config/fontconfig/fonts.conf
+vim ~/.config/fontconfig/fonts.conf
+git push
+gs
+gl
+neos
+gs
+gs
+gl
+neos
+neos
+yay
+yay
+yay
+code package.json
+code .
+neos
+neos
+neos
+speedtest
+speedtest
+speedtest
+speedtest
+speedtest
+z app
+pwd
+gs
+gl
+ll
+yarn dev
+yarn dev
+touch server/api/ninja.js
+mkdir server/api/currency
+touch server/api/currency/[code].js
+gs
+rm -rf .unlighthouse
+gs
+gd
+ga
+git push
+code .
+neos
+gs
+gl
+git remote -v
+gs
+gl
+npx unlighthouse --site https://cosmic-cuchufli-052b0e.netlify.app/products
+neo
+neot
+z nuxt3
+gs
+gl
+yarn dev
+yarn dev
+yarn dev
+yarn dev
+yarn dev
+yarn dev
+yarn dev
+yarn dev
+yarn dev
+cd ..
+_github
+ll
+vue3-tailwind3-website-starter
+gs
+r
+cd ..
+ll
+vite-vue3-tailwind-starter
+ll
+npm run dev & code .
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npx vite --port=4000
+z test
+ll
+python3 -m http.server
+r
+sudo iptables --list-rules
+hostname
+r
+bat /etc/hosts
+gs
+gd
+npm run go
+time npm run go
+gs
+gd
+r
+flyctl secrets list
+flyctl info
+r
+flyctl status
+flyctl proxy
+r
+r
+yarn dev
+r
+yarn dev
+vim package.json
+yarn dev
+z test
+ll
+npm create vite@latest
+ll
+vite-latest-vanilla
+ll
+yarn install
+r
+ll
+rm -rf .git
+cd ..
+gs
+git add .gitignore && git commit -m'Add _tailwind_sandbox to gitignore.'
+gs
+gd
+r
+gs
+flyctl help
+rr
+r
+pwd
+gs
+flyctl secrets list
+npm install --save-dev @iconify/vue
+gs
+gd package.json
+rm package-lock.json
+gs
+git add package.json yarn.lock && git commit -m'ADD install iconify/vue.'
+gs
+gd
+gl
+r
+vim ~/.config/zsh/zsh-aliases
+git diff
+git diff
+gd
+gs
+gd
+gd
+gd
+git diff
+git difff
+git diff
+gd
+git diff
+gd
+git diff
+yarn add tailwindcss-debug-screens
+yarn add tailwindcss-debug-screens -D
+gs
+ll
+cd..
+cd ..
+ll
+gs
+gs
+ga
+gs
+gl
+git clear cache
+git rm -cached .gitignore
+git rm --cached .gitignore
+gs
+gl
+git add .gitignore && git commit -m'Add _traversy_files_ to gitignore.'
+gs
+git add .gitignore && git commit -m'Add _traversy_files_ to gitignore.'
+gs
+ll
+r
+git clone https://github.com/bradtraversy/tailwind-sandbox _tailwind_sandbox
+gs
+r
+matrix
+z down
+lll
+smartresize pexels-taryn-elliott-4112363.jpg 200 resized
+r
+smartresize pexels-taryn-elliott-4112285.jpg 200 resized
+smartresize pexels-cottonbro-studio-4626350.jpg 200 resized
+r
+git remote -v
+touch test.txt
+touch test.txt
+touch test.txt
+touch src/views/test.vue
+yarn build
+yarn serve
+npx live-server dist
+gs
+public/images
+ll
+public/images/
+ll
+funsplash2 800 600
+funsplash2 800 600
+funsplash2 800 600
+funsplash2 800 600
+cd ..
+cd ..
+touch src/components/EmailSubscribe.vue
+public/images/
+funsplash2 200 300
+funsplash2 200 300
+yarn build
+npx live-server dist
+cd ..
+cd ..
+npx live-server dist
+yarn build
+ll
+npx live-server .
+gs
+cd "/home/jaime/www/UdemyCourses/tailwind-from-scratch_by_Brad_Traversy"
+node "/home/jaime/.vscode/extensions/vue.volar-1.0.13-linux-x64/dist/preview-bin/vite.js" --port=3333
+ga
+gs
+gl
+gs
+vim ~/.config/zsh/zsh-aliases
+source ~/.config/zsh/zsh-aliases
+vim ~/.config/zsh/zsh-aliases
+source ~/.config/zsh/zsh-aliases
+gd
+gs
+gd readme.md
+git diff readme.md
+lg
+gs
+gl
+git rm -r --cache .gitignore
+gs
+bat .gitignore
+git add .gitignore && git commit -m'feat: add .gitignore'
+gs
+git add .prettierrc && git commit -m'Add .prettierrc.'
+gs
+gl
+gs
+r
+gl
+matrix
+gs
+r
+gs
+gd
+neos
+neot
+gs
+gl
+r
+gs
+git add public/images/ && git commit -m'ADD all images from Brads sandbox.'
+gs
+vim ~/.config/zsh/zsh-aliases
+z down
+smartresize linkedin-sales-solutions-0QvTyp0gH3A-unsplash.jpg 200 resized
+z brad
+public/images
+r
+cd ..
+cd ..
+gs
+z down
+lll
+smartresize linkedin-sales-solutions-0QvTyp0gH3A-unsplash.jpg 400 resized
+gs
+z brad
+gs gl
+gs
+gl
+z test
+ll
+mkdir chatGPT
+chatGPT
+ll
+touch index.html
+touch style.css
+vim .
+npx live-server .
+ll
+rm index.html style.css
+ll
+touch index.html style.css
+code .
+z brad
+code .
+code .
+ll
+npm install
+cat package.json
+npm run watch
+ll
+rm -rf node_modules
+cd ..
+cd ..
+ll
+yarn dev
+ll
+git init
+git add . && git commit -m'First Commit'
+gs
+gl
+yarn add vite-plugin-mkcert -D
+ll
+rm -rf node_modules & rm package-lock.json
+ll
+yarn add vite-plugin-mkcert -D
+yarn install
+yarn add vitejs/plugin-basic-ssl -D\
+
+vim .
+vim
+python3 -m https.server
+python3 -m http.server
+ifconfig
+ipconfig
+cat package.json
+bat package.json 
+bat hostname
+hostname
+npx -y mkcert-cli
+fy
+ngrok config add-authtoken 2ImVM5VHqe3z9Q3kflMP31dI1w2_69NwwYXavVNDovrYuXAPy
+ngrok http 3000
+ngrok http 3000
+ngrok http 3000
+code .
+pwd
+ll
+mkdir _traversy_files
+_traversy_files
+degit bradtraversy/tailwind-course-projects
+r
+gs
+gl
+git addd -m'PICKING UP WHERE I LEFT OFF 8 MONTHS LATER.'
+git push
+git checkout -b update-packages
+gl
+git remote -v
+gs
+gd
+git addd -m'FIX vite.config / disable server open true.'
+git push
+git branch
+git checkout main
+git merge update-packages
+git push
+cd ..
+cd ..
+UdemyCourses
+ll
+mkdir tailwind-from-scratch_by_Brad_Traversy
+ll
+tailwind-from-scratch_by_Brad_Traversy
+degit jjaimealeman/vite-vue3-tailwind-starter
+ll
+yarn install
+r
+yarn dev
+yarn dev
+yarn dev
+yarn dev
+yarn dev
+yarn dev
+yarn dev
+yarn dev
+yarn i
+yarn install
+yarn install
+yarn dev
+yarn dev
+yarn dev --https
+yarn dev
+yarn add vitejs/plugin-basic-ssl -D\
+
+yarn add @vitejs/plugin-basic-ssl -D\
+
+yarn install
+yarn dev
+yarn dev
+npm run dev -- --host
+yarn dev
+yarn dev
+yarn dev
+yarn dev
+yarn dev
+yarn dev
+yay
+reboot
+yay
+reboot
+z brad
+lighthouse http://127.0.0.1:8080
+ll
+lll
+rm 127.0.0.1_2022-12-16_22-29-33.report.html localhost_2022-12-16_22-17-02.report.html
+gs
+gs
+gd
+yarn preview
+bat package.json 
+yarn serve
+ll
+gl
+ga
+git addd -m'FIX updated all routes to reflect new pages.'
+yarn build
