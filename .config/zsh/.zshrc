@@ -80,7 +80,8 @@ export MANPAGER='nvim +Man!'
 # feh --bg-scale ~/Pictures/Wallpapers/endeavouros.jpeg
 # feh --bg-fill --randomize ~/Pictures/Wallpapers/*
 # feh --bg-fill --randomize /home/jaime/AllPictures/DatsunZ/*
-feh --bg-fill --randomize /home/jaime/Pictures/EOS/*
+# feh --bg-fill --randomize /home/jaime/Pictures/EOS/*
+feh --bg-fill --randomize /home/jaime/AllPictures/DatsunZ/*
 # Sept 01 2022 // added to crontab -e
 
 #########################################################################################
@@ -141,4 +142,9 @@ export PATH="$PNPM_HOME:$PATH"
 # installed some cargo apps
 # https://betterprogramming.pub/5-cli-tools-made-with-rust-to-improve-already-popular-tools-506af07b6d54
 PATH="$PATH:$HOME/.cargo/bin"
+
+# October 16 2022
+# Install Fly.ignore-vcsexport FLYCTL_INSTALL="/home/jaime/.fly"
+  export FLYCTL_INSTALL="/home/jaime/.fly"
+  export PATH="$FLYCTL_INSTALL/bin:$PATH"
 
