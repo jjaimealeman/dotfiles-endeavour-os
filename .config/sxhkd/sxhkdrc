@@ -27,7 +27,9 @@ super + x
 # terminal emulator
 super + Return
 #	xfce4-terminal
-    kitty
+# wezterm
+kitty
+
 
 # program launcher
 super + d
