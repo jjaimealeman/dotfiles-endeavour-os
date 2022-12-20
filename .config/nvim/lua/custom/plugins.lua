@@ -21,7 +21,7 @@ return function(use)
   })
 -- Autocmd for nvim-tree
 vim.cmd("autocmd Colorscheme * highlight NvimTreeNormal guibg=none guifg=#205680")
-  
+
 -- install pocco81/auto-save.nvim
   use({
     "Pocco81/auto-save.nvim",
@@ -99,5 +99,7 @@ lspconfig.emmet_ls.setup({
     }
   end}
 
+-- install undotree
+  use ("mbbill/undotree")
 
 end
