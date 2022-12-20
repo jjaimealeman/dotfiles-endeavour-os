@@ -8,6 +8,8 @@ https://github.com/nvim-lua/kickstart.nvim/
 
 And I have now nearly gotten my NEOVIM setup as close to completion as I have ever gotten! 👍
 
+![screenshot](https://i.imgur.com/s9cfDXj.png)
+
 ---
 
 ### Preinstalled Plugins (22)
