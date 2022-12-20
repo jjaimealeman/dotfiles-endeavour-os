@@ -117,8 +117,9 @@ vim.wo.signcolumn = 'yes'
 
 -- Set colorscheme
 vim.o.termguicolors = true
+-- vim.cmd [[colorscheme dracula]]
 -- vim.cmd [[colorscheme onedark]]
-vim.cmd [[colorscheme dracula]]
+vim.cmd [[colorscheme nightfox]]
 
 -- Set completeopt to have a better completion experience
 vim.o.completeopt = 'menuone,noselect'
@@ -153,12 +154,47 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 -- See `:help lualine.txt`
 require('lualine').setup {
   options = {
-    icons_enabled = false,
+    always_divide_middle = true,
+    icons_enabled = true,
+    -- theme = 'dracula',
     -- theme = 'onedark',
-    theme = 'dracula',
-    component_separators = '|',
-    section_separators = '',
+    theme = 'nightfox',
+    section_separators = { left = '', right = '' },
+    component_separators = '',
+--  section_separators = { left = '', right = ''},
+--  component_separators = { left = '', right = ''},
+--  section_separators = { left = '', right = '' },
+--  component_separators = { left = '', right = '' }
   },
+  sections = {
+    lualine_a = {'mode'},
+    lualine_b = {
+      'branch',
+      'diff',
+      { 'diagnostics', sources = { "nvim_diagnostic" }, symbols = { error = ' ', warn = ' ', info = ' ',
+        hint = ' ' } },
+    },
+    lualine_c = {{
+      'filename',
+      file_status = true, -- displays file status (readonly / modified)
+      path = 1            -- 0 = just filename, 1 = relative, 2 = absolute path
+    }},
+    lualine_x = {'encoding', 'fileformat', 'filetype'},
+    lualine_y = {'progress'},
+    lualine_z = {'location'}
+  },
+  inactive_sections = {
+    lualine_a = {},
+    lualine_b = {},
+    lualine_c = {{
+      'filename',
+      file_status = true,
+      path = 0
+    }},
+    lualine_x = {},
+    lualine_y = {},
+    lualine_z = {}
+  }
 }
 
 -- Enable Comment.nvim
@@ -357,7 +393,7 @@ local on_attach = function(_, bufnr)
 
   -- See `:help K` for why this keymap
   nmap('K', vim.lsp.buf.hover, 'Hover Documentation')
-  nmap('<C-k>', vim.lsp.buf.signature_help, 'Signature Documentation')
+  -- nmap('<C-k>', vim.lsp.buf.signature_help, 'Signature Documentation')
 
   -- Lesser used LSP functionality
   nmap('gD', vim.lsp.buf.declaration, '[G]oto [D]eclaration')

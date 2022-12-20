@@ -4,7 +4,9 @@
 return function(use)
 
 -- install my favorite color scheme
-  use { "Mofiqul/dracula.nvim" }
+--  use { "Mofiqul/dracula.nvim" }
+-- install my new favorite color scehem
+  use { "EdenEast/nightfox.nvim" }
 
 -- installing a transparency plugin
   use({
@@ -101,5 +103,11 @@ lspconfig.emmet_ls.setup({
 
 -- install undotree
   use ("mbbill/undotree")
+
+-- install lualine with icons
+  -- use {
+  --   'nvim-lualine/lualine.nvim',
+  --   requires = {'kyazdani42/nvim-web-devicons', opt = true}
+  -- }
 
 end

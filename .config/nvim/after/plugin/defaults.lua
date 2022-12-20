@@ -1,24 +1,37 @@
 -- $HOME/.config/nvim/after/plugin/defaults.lua
 
--- Dec 18 2022
 -- adding my own sensible defaults
-vim.cmd [[colorscheme dracula]]
+-- vim.cmd [[colorscheme dracula]]
 -- vim.cmd [[colorscheme onedark]]
+vim.cmd [[colorscheme nightfox]]
 vim.keymap.set('n', '<leader>sr', require('telescope.builtin').resume, { desc = '[S]earch [R]esume' })
 vim.keymap.set("n", "<Tab>", ":bnext<CR>")
 vim.keymap.set("n", "<S-Tab>", ":bprevious<CR>")
+-- vim.keymap.set("n", "tds", ":pu=strftime=('%c')<CR>")
+vim.keymap.set("n", "tds", ":pu=strftime('%a %d %b %Y')<CR>")
+
+-- toggle things
 vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
 vim.keymap.set("n", "<leader>u", ":UndotreeToggle<CR>")
+vim.keymap.set("n", "<C-t>", ":ToggleTerm size=40 dir=git_dir direction=float<cr>")
+vim.keymap.set("n", "<C-s>", ":ASToggle<CR>", {})
+-- toggle transparency with :TransparentToggle
+
+-- increment/decrement numbers
+vim.keymap.set("n", "+", "<C-a>")
+vim.keymap.set("n", "-", "<C-x>")
 
 -- vim.keymap.set("n", "<leader>h", "<cmd>nohlsearch<CR>") -- Clear highlights
 vim.keymap.set("n", "<ESC><ESC>", ":noh<CR>") -- Clear highlights
 
-vim.keymap.set("n", "<C-t>", ":ToggleTerm size=40 dir=git_dir direction=float<cr>")
+-- split window
+vim.keymap.set("n", "sh", ":split<Return><C-w>w")
+vim.keymap.set("n", "sv", ":vsplit<Return><C-w>w")
 
 -- Better window navigation
 vim.keymap.set("n", "<C-h>", "<C-w>h")
 vim.keymap.set("n", "<C-j>", "<C-w>j")
-vim.keymap.set("n", "<C-k>", "<C-w>k")
+vim.keymap.set("n", "<C-k>", "<C-w>k")  -- to make this work, I had to disable 'vim.lsp.buf.signature_help' in 'init.lua'
 vim.keymap.set("n", "<C-l>", "<C-w>l")
 
 -- Resize with arrows
@@ -40,10 +53,16 @@ vim.keymap.set("n", "N", "Nzzzv")
 -- move a single line up/down with "Shift up/down"
 vim.keymap.set("n", "<S-Down>", ":m .+1<cr>")
 vim.keymap.set("n", "<S-Up>", ":m .-2<cr>")
+vim.keymap.set("n", "<S-Right>", ">>")
+vim.keymap.set("n", "<S-Left>", "<<")
 
--- move a seclection up/down with "Shift J/K"
-vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
-vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
+-- move a selection up/down with "Shift up/down"
+vim.keymap.set("v", "<S-Down>", ":m '>+1<CR>gv=gv")
+vim.keymap.set("v", "<S-Up>", ":m '<-2<CR>gv=gv")
+-- indent line with "Shift left/right"
+vim.keymap.set("v", "<S-Right>", ">>")
+vim.keymap.set("v", "<S-Left>", "<<")
+
 
 -- undo and redo
 vim.keymap.set("n", "<C-Z>", "u")
@@ -52,9 +71,13 @@ vim.keymap.set("n", "<C-Y>", "<C-R>")
 -- greatest remap ever
 -- "<leader>y" copies the buffer to the system clipboard for use elsewhere
 -- https://youtu.be/w7i4amO_zaE?t=1633
-vim.keymap.set("n", "<leader>y", "\"+y")
-vim.keymap.set("v", "<leader>y", "\"+y")
-vim.keymap.set("n", "<leader>y", "\"+Y")
+-- vim.keymap.set("n", "<leader>y", "\"+y")
+-- vim.keymap.set("v", "<leader>y", "\"+y")
+-- vim.keymap.set("n", "<leader>y", "\"+Y")
+vim.keymap.set("n", "y", "\"+y")
+vim.keymap.set("v", "y", "\"+y")
+vim.keymap.set("n", "y", "\"+Y")
+vim.keymap.set("n", "yw", "bvey")               -- select and copy this word
 
 -- press "<leader>f" to instantly search for the word you are on and find/replace
 -- https://youtu.be/w7i4amO_zaE?t=1725
@@ -74,8 +97,8 @@ vim.opt.smartindent = true                      -- make indenting smarter again
 vim.opt.swapfile = false                        -- creates a swapfile
 vim.opt.tabstop = 4                             -- insert 4 spaces for a tab
 -- UNCOMMENT THESE WHEN I INSTALL UNDOTREE
--- vim.opt.undodir = os.getenv("HOME") .. "~/.config/nvim/undodir"
--- vim.opt.undofile = true
+vim.opt.undodir = os.getenv("HOME") .. "~/.config/nvim/undodir"
+vim.opt.undofile = true
 
 
 -- Nvim Tree Settings

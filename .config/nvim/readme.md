@@ -37,7 +37,7 @@ And I have now nearly gotten my NEOVIM setup as close to completion as I have ev
 'nvim-lua/plenary.nvim'
 'nvim-telescope/telescope-fzf-native.nvim'
 ```
-### My Installed Plugins (12)
+### My Installed Plugins (11)
 ```
 'Mofiqul/dracula.nvim'
 'xiyaowong/nvim-transparent'
@@ -46,7 +46,6 @@ And I have now nearly gotten my NEOVIM setup as close to completion as I have ev
 'nvim-tree/nvim-web-devicons'
 'akinsho/bufferline.nvim'
 'windwp/nvim-autopairs'
-'nvim-autopairs'
 'folke/which-key.nvim'
 'goolord/alpha-nvim'
 'akinsho/toggleterm.nvim'
@@ -62,3 +61,26 @@ And I have now nearly gotten my NEOVIM setup as close to completion as I have ev
 - [x] Checkout `mbbill/undotree` - Primeagan talks about undotree here https://youtu.be/w7i4amO_zaE?t=951
 - [ ] copilot
 - [ ] give keymaps a description so they show up in WhichKey
+- [ ] Checkout `ThePrimeagen/vim-be-good`
+- [ ] Checkout `nvim-neo-tree/neo-tree.nvim`
+- [ ] Checkout `noib3/nvim-cokeline`
+- [ ] Checkout `jose-alias-alvarez/null-ls.nvim`
+- [x] Checkout incredibly customizable color scheme `EdenEast/nightfox.nvim` 
+- [ ] Checkout `onsails/lspkind.nvim`
+- [ ] Checkout `MunifTanjim/prettier.nvim`
+- [ ] Checkout `norcalli/nvim-colorizer.lua`
+- [ ] Checkout `Yggdroot/LeaderF`
+- [ ] Checkout `tpope/vim-commentary`
+- [ ] Checkout `machakann/vim-sandwich`
+- [ ] Checkout `phaazon/hop.nvim`
+- [ ] Checkout `SirVer/ultisnips`
+- [ ] Checkout `gelguy/wilder.nvim`
+- [ ] Checkout `preservim/vim-markdown`
+- [ ] Checkout `iamcco/markdown-preview.nvim`
+- [ ] Checkout `rcarriga/nvim-notify`
+- [ ] Checkout ``
+- [ ] Checkout ``
+- [ ] Checkout ``
+- [ ] 
+
+
