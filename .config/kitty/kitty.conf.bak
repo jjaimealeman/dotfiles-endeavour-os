@@ -754,8 +754,9 @@ tab_powerline_style slanted
 #: }}}
 
 #: Color scheme {{{
-# foreground #EFEFEF
-# background #383A59
+
+foreground #EFEFEF
+background #383A59
 
 #: The foreground and background colors
 
@@ -1216,7 +1217,7 @@ map kitty_mod+v paste_from_clipboard
 #: will be passed as a command line argument to the program, for
 #: example::
 
-     map kitty_mod+o pass_selection_to_program firefox-developer-edition
+#:     map kitty_mod+o pass_selection_to_program firefox
 
 #: You can pass the current selection to a terminal program running in
 #: a new kitty window, by using the @selection placeholder::
@@ -1508,13 +1509,4 @@ map kitty_mod+enter new_window
 
 #: }}}
 #include dracula.conf
-#include Github_Dark_Dimmed.conf
-
-
-# BEGIN_KITTY_THEME
-# One Dark
-# include current-theme.conf
-# END_KITTY_THEME
-
-# Mon Apr 03 2023
-nightfox-kitty.conf
+include Github_Dark_Dimmed.conf
