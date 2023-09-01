@@ -153,8 +153,8 @@ PATH="$PATH:$HOME/.cargo/bin"
   export FLYCTL_INSTALL="/home/jaime/.fly"
   export PATH="$FLYCTL_INSTALL/bin:$PATH"
 
-# for use in neovim 'neoai' plugin.
-  export OPENAI_API_KEY=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
+# for use in neovim 'neoai' plugin, and chatgpt script.
+  export OPENAI_API_KEY=******************
 
 
 
