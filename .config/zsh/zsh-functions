@@ -32,3 +32,53 @@ function zsh_add_completion() {
 	completion_file="$(basename "${completion_file_path}")"
 	if [ "$2" = true ] && compinit "${completion_file:1}"
 }
+
+# https://www.chrisatmachine.com/Linux/03-AUR-yay/
+# FZF search on YAY
+# alias fy='yay -Slq | fzf -m --preview 'cat <(yay -Si {1}) <(yay -Fl {1} | awk "{print \$2}")' | xargs -ro  yay -S'
+fzfyay () {
+  yay -Slq | fzf -m --preview 'bat <(yay -Si {1}) <(yay -Fl {1} | awk "{print \$2}")' | xargs -ro  yay -S
+}
+
+# Sat Jan 01 2022 20:38:03
+# https://www.smashingmagazine.com/2015/06/efficient-image-resizing-with-imagemagick/#bash-shell
+#   Takes 3 parameters:
+#     input_image.jpg
+#     output size in pixels
+#     output folder (must already exist)
+smartresize() {
+   mogrify -path $3 -filter Triangle -define filter:support=2 -thumbnail $2 -unsharp 0.25x0.08+8.3+0.045 -dither None -posterize 136 -quality 82 -define jpeg:fancy-upsampling=off -define png:compression-filter=5 -define png:compression-level=9 -define png:compression-strategy=1 -define png:exclude-chunk=all -interlace none -colorspace sRGB $1
+}
+
+# Takes 3 parameters:
+#   input: original_image
+#   output: original_image renamed with 2px white border
+#   output: original_image renamed with 2px black border
+#   EXAMPLE: borderme image.jpg image-white.jpg image-black.jpg
+borderme() {
+	# convert $1 -bordercolor white -border 2 $2
+	# convert $2 -bordercolor black -border 2 $3
+	convert $1 -bordercolor white -shave 2 -border 2 $2
+	convert $2 -bordercolor black -shave 2 -border 2 $3
+	FILE="file.txt"
+	mv -T $FILE "${FILE%%.*}"COPY."${FILE##*.}"
+}
+borderme2() {
+	convert $1 -bordercolor white -shave 4 -border 4 image.jpg
+	convert image.jpg -bordercolor black -shave 2 -border 2 $2
+	trash image.jpg
+}
+# Friday, April 1, 2022 @ 07:22:45 PM
+# https://github.com/scour-project/scour
+# alias svg='scour'
+# scour -i input.svg -o output.svg --enable-viewboxing --enable-id-stripping --enable-comment-stripping --shorten-ids --indent=none
+svg () {
+	scour -i $1 -o $2 --enable-viewboxing --enable-id-stripping --enable-comment-stripping --shorten-ids --indent=none
+}
+
+# Mon 16 Jan 2023
+# https://github.com/sharkdp/bat#git-diff
+batdiff() {
+    git diff --name-only --relative --diff-filter=d | xargs bat --diff
+}
+

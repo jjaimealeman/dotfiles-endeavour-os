@@ -11,9 +11,12 @@
 #    tree -f -I "node_modules" -P ${1}
 # }
 
+alias ..='cd ..'
 
-alias ga='git add -A && git commit -m'
-alias gd='git diff --color | diff-so-fancy'
+# alias ga='git add -A && git commit -m'
+alias ga='git add -A && git commit'
+#alias gd='git diff --color | diff-so-fancy'
+alias gd='git diff'
 alias gl="git log --oneline --abbrev-commit --all --graph --decorate --color --pretty=format:'%C(yellow)%h%Creset -%C(red)%d%Creset %s %C(dim green)(%cr)'"
 alias gs='git status -sb'
 alias lg='lazygit'
@@ -21,46 +24,42 @@ alias lg='lazygit'
 alias v='nvim'
 alias vi='nvim'
 alias vim='nvim'
-alias lvim='nvim'
+# alias lvim='nvim'
+alias nnimclean='rm -rf ~/.config/nvim/plugin/packer_compiled.lua ~/.local/share/nvim/site/pack ~/.cache/nvim/packer.nvim'
+alias nvimtime='nvim --startuptime startup.log -c exit && tail -5 startup.log'
 #alias vi   = '/usr/bin/nvim'
-#alias lvim = '/usr/bin/nvim'
+# alias lvim = '/usr/bin/nvim'
+alias hx='helix'
 
 # alias vim='sh ~/.local/bin/lvim'
 # alias nvim='sh ~/.local/bin/lvim'
-alias lvim='sh ~/.local/bin/lvim'
+# alias lvim='sh ~/.local/bin/lvim'
 
-alias count='find . -type f | wc -l'
+# alias count='find . -type f | wc -l'
+alias count="find . -type f -not -path '*/\.git/*' -not -path '*/\node_modules/*' | wc -l"
+# alias count='find . -type f | wc -l'
 alias greenclipk='pkill greenclip && greenclip clear && greenclip daemon &'
 alias hist='history | grep --color'
 alias htop='bpytop'
 alias ld='exa -lDa --icons --sort name --git'
 alias ll='exa -la -F --icons --git --group-directories-first --git'
 alias lll='exa -la -F -s=mod -r --icons --git --group-directories-first --git'
-alias lol='clear && fortune | cowsay -f tux | lolcat'
+# alias lol='clear && fortune | cowsay -f tux | lolcat'
+alias lol='fortune | cowsay  -f "$(ls /usr/share/cows | sort -R | head -1)" | lolcat'
 alias neo='clear && neofetch'
-alias neos='clear && neofetch && tuptime && speedtest'
 alias neot='clear && neofetch && tuptime'
+alias neos='clear && neofetch && tuptime && speedtest'
 alias r='ranger'
 # CD into top lever of git project.
 ##-alias cdg="cd `git rev-parse --show-toplevel`"
 
 ## IMAGE OPTIMIZATION
-alias optimizepng='optipng'
-alias optimizejpg='jpegoptim'
+alias optipng='optipng'
+alias optijpg='jpegoptim'
+alias optisvg='svg'
 
-alias nn='nnn'
+alias nn='nnn -e'
 
-# svgo file.svg -o file.min.svg
-# alias svgo='svgo $1 -o $2'
-#
-
-# Friday, April 1, 2022 @ 07:22:45 PM
-# https://github.com/scour-project/scour
-# alias svg='scour'
-# scour -i input.svg -o output.svg --enable-viewboxing --enable-id-stripping --enable-comment-stripping --shorten-ids --indent=none
-svg () {
-	scour -i $1 -o $2 --enable-viewboxing --enable-id-stripping --enable-comment-stripping --shorten-ids --indent=none
-}
 
 
 
@@ -78,58 +77,16 @@ alias trash='mv --force -t ~/.local/share/Trash '
 alias df='df -h'     # human-readable sizes
 alias free='free -m' # show sizes in MB
 
-alias matrix='neo-matrix --message "The Matrix has you"'
+alias matrix='neo-matrix --message "THE MATRIX HAS YOU!!!"'
 
 # alias fzfi="rg --files --hidden --follow --no-ignore-vcs -g '!{node_modules,.git}' | fzf"
 # alias vzfi="vim $(fzfi)"
 
 
-# https://www.chrisatmachine.com/Linux/03-AUR-yay/
-# FZF search on YAY
-# alias fy='yay -Slq | fzf -m --preview 'cat <(yay -Si {1}) <(yay -Fl {1} | awk "{print \$2}")' | xargs -ro  yay -S'
-fzfyay () {
-  yay -Slq | fzf -m --preview 'bat <(yay -Si {1}) <(yay -Fl {1} | awk "{print \$2}")' | xargs -ro  yay -S
-}
 alias fy='fzfyay'
 ## alias fz='rg --files --hidden --follow --no-ignore-vcs -g "!{node_modules,.git}" | fzf'
 alias fv='vim $(fz)'
 alias fz='rg --files --hidden --follow --ignore-vcs -g "!{node_modules,.git}" | fzf'
 
+alias hc='herbstclient'
 
-# Sat Jan 01 2022 20:38:03
-# https://www.smashingmagazine.com/2015/06/efficient-image-resizing-with-imagemagick/#bash-shell
-#   Takes 3 parameters:
-#     input_image.jpg
-#     output size in pixels
-#     output folder (must already exist)
-smartresize() {
-   mogrify -path $3 -filter Triangle -define filter:support=2 -thumbnail $2 -unsharp 0.25x0.08+8.3+0.045 -dither None -posterize 136 -quality 82 -define jpeg:fancy-upsampling=off -define png:compression-filter=5 -define png:compression-level=9 -define png:compression-strategy=1 -define png:exclude-chunk=all -interlace none -colorspace sRGB $1
-}
-
-# Takes 3 parameters:
-#   input: original_image
-#   output: original_image renamed with 2px white border
-#   output: original_image renamed with 2px black border
-#   EXAMPLE: borderme image.jpg image-white.jpg image-black.jpg
-borderme() {
-	# convert $1 -bordercolor white -border 2 $2
-	# convert $2 -bordercolor black -border 2 $3
-	convert $1 -bordercolor white -shave 2 -border 2 $2
-	convert $2 -bordercolor black -shave 2 -border 2 $3
-	FILE="file.txt"
-	mv -T $FILE "${FILE%%.*}"COPY."${FILE##*.}"
-}
-borderme2() {
-	convert $1 -bordercolor white -shave 4 -border 4 image.jpg
-	convert image.jpg -bordercolor black -shave 2 -border 2 $2
-	trash image.jpg
-}
-
-# https://github.com/GoogleChromeLabs/squoosh/tree/dev/cli
-#squoosh() {
-#  npx @squoosh/cli --webp auto $1
-#}
-
-# Linux System optimizor and monitoring
-# stacer
-# Mailsplring for email

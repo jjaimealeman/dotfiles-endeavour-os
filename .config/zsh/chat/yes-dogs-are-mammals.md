@@ -1,0 +1,1 @@
+Yes, dogs are mammals.
